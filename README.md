@@ -1,6 +1,7 @@
 # 3D printer
 
-Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende
+**Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende**:
+ 0. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
  1. En 3D-fil med filtypen STL.
  2. En computer med [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software) installeret.
  3. USB-pen.
@@ -14,8 +15,7 @@ Det kan være vanskeligt og tidkrævende at designe sin egen fil. Heldigvis find
 I dette eksempel vil jeg tage udgangspunkt i en [dørstopper](https://www.thingiverse.com/thing:2642527) (fordi lab'et mangler en).
 
 #### Gør fil klar til print i Cura
-Næste trin er at åbne sin 3D-fil i Cura
-* File -> open File(s)
+Næste trin er at åbne sin 3D-fil i Cura Dette kan gøres ved at trykke på 'File -> open File(s)' og så vælge sin fil.
 
 Filen er importeret og man kan nu ændre på størrelsen på printet og orientering ved hjælp af værktøjerne i venstre side.
 Som det kan ses på billedet er filen for lille til at virke på som en dørstopper så derfor skal den skaleres op.
@@ -32,8 +32,19 @@ Infill beskriver hvor meget printeren fylder ind i modellen. Hvis man skal print
 
 **Support**:  
 Support skal sættes til hvis der frithængende elementer på ens model, da printeren ikke kan lægge plastik ovenpå luft. Support kan ses som et stillads som printeren bruger til at
-Jo mere support der skal bruges jo større er sandsynligheden for fejl-print, men der bruges også væsentlig mere materiale. Derfor anbefales det at man roterer sin  
+Jo mere support der skal bruges jo større er sandsynligheden for fejl-print, men der bruges også væsentlig mere materiale. Derfor anbefales det at man roterer sin model så der skal bruges så lidt support som muligt.
 
- ## udskiftning af materiale
+**Build plate**:  
+Det kan tit være en fordel at printe sin model på en bund, så der er et lag mellem printerens byggeplade og ens 3D-model. Hvis man vil have det skal man tjekke 'Build Plate' kassen af.
+
+**Tape på varmepladen**:
+Flere guides på nettet anbefaler man putter lim på printerens byggeplade. **Det anbefaler vi ikke!**. Det kan derimod være en fordel at putte den blå tape på byggepladen der kan findes i en kasse under vinylcutteren (der står ved siden af 3D printeren).
+
+ ## Materiale
+ **Hvilket materiale bliver der brugt**:  
+ Vi har flere forskellige typer af materiale-ruller men fællesnævneren er at det hele er PLA, hvilket er en mere miljøvenlig plastik, da den er bionedbrydelig. Dermed ikke sagt at man bare skal printe løs og smide det i naturen, for det kræver særlige forhold at nedbrude materialet. Printer man noget, må det gerne være for sjov, det skal også bare have sted i verden (eksempelvis awesome digital design prototyper).
+
+**Skift materiale**:
+Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller med 3D-printer plast. Fordelen ved at bruge dem  
 
  ## design af egne modeller
