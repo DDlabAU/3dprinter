@@ -26,9 +26,9 @@ Når filen har de rigtige dimensioner skal den eksporteres til gcode (som printe
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/03.png)
 
 
-![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/07.png)
+![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/07.jpg)
 
-![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/08.png)
+![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/08.jpg)
 
 ##### Tricks til bedre print
 **Materiale & extruder**:  
