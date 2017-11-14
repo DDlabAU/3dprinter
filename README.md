@@ -17,18 +17,22 @@ I dette eksempel vil jeg tage udgangspunkt i en [dørstopper](https://www.thingi
 #### Gør fil klar til print i Cura
 Næste trin er at åbne sin 3D-fil i Cura Dette kan gøres ved at trykke på 'File -> open File(s)' og så vælge sin fil.
 
-Filen er importeret og man kan nu ændre på størrelsen på printet og orientering ved hjælp af værktøjerne i venstre side.
+Filen er importeret og man kan nu ændre på størrelsen på printet og orientering ved hjælp af værktøjerne i venstre side.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/01.png)
-Som det kan ses på billedet er filen for lille til at virke på som en dørstopper så derfor skal den skaleres op.
+Som det kan ses på billedet er filen for lille til at virke på som en dørstopper så derfor skal den skaleres op.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/02.png)
 
-Når filen har de rigtige dimensioner skal den eksporteres til gcode (som printeren kan læse), ved at trykke på "Save to File" i højre bund af programmet. Ved siden af knappen kan man se hvor langt tid printet tager samt printets vægt som skal bruges til betalling i DD Lab's webshop.
+Når filen har de rigtige dimensioner skal den eksporteres til gcode (som printeren kan læse), ved at trykke på "Save to File" i højre bund af programmet. Ved siden af knappen kan man se hvor langt tid printet tager samt printets vægt som skal bruges til betalling i DD Lab's webshop.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/03.png)
 
 
+![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/07.png)
+
+![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/08.png)
+
 ##### Tricks til bedre print
 **Materiale & extruder**:  
-I højre top kan man vælge hvilken "extruder" printeren skal bruge samt hvilket materiale der er tale om. Det er muligt at vælge begge extruders i samme print, men det tager VÆSENTLIG længere tid samt der er større sandsynlighed for fejl-print
+I højre top kan man vælge hvilken "extruder" printeren skal bruge samt hvilket materiale der er tale om. Det er muligt at vælge begge extruders i samme print, men det tager VÆSENTLIG længere tid samt der er større sandsynlighed for fejl-print.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/04.png)
 
 **Print Setup**:  
@@ -38,7 +42,7 @@ Infill beskriver hvor meget printeren fylder ind i modellen. Hvis man skal print
 
 **Support**:  
 Support skal sættes til hvis der frithængende elementer på ens model, da printeren ikke kan lægge plastik ovenpå luft. Support kan ses som et stillads som printeren bruger til at
-Jo mere support der skal bruges jo større er sandsynligheden for fejl-print, men der bruges også væsentlig mere materiale. Derfor anbefales det at man roterer sin model så der skal bruges så lidt support som muligt.
+Jo mere support der skal bruges jo større er sandsynligheden for fejl-print, men der bruges også væsentlig mere materiale. Derfor anbefales det at man roterer sin model så der skal bruges så lidt support som muligt.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/06.png)
 
 **Build plate**:  
