@@ -19,6 +19,8 @@ Næste trin er at åbne sin 3D-fil i Cura Dette kan gøres ved at trykke på 'Fi
 
 Filen er importeret og man kan nu ændre på størrelsen på printet og orientering ved hjælp af værktøjerne i venstre side.
 Som det kan ses på billedet er filen for lille til at virke på som en dørstopper så derfor skal den skaleres op.
+![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/01.png)
+
 
 Når filen har de rigtige dimensioner skal den eksporteres til gcode (som printeren kan læse), ved at trykke på "Save to File" i højre bund af programmet. Ved siden af knappen kan man se hvor langt tid printet tager samt printets vægt som skal bruges til betalling i DD Lab's webshop.
 
@@ -47,4 +49,7 @@ Flere guides på nettet anbefaler man putter lim på printerens byggeplade. **De
 **Skift materiale**:
 Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller med 3D-printer plast. Fordelen ved at bruge dem  
 
- ## design af egne modeller
+**Fjerne færdigt print**:
+
+
+## design af egne modeller
