@@ -1,11 +1,12 @@
 # 3D printer
 
 **Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende**:
+
  0. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
  1. En 3D-fil med filtypen STL.
  2. En computer med [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software) installeret.
  3. USB-pen.
- 4. Et [link til DD Labs workshop](http://auws.au.dk/forms/frm1Arrangement.aspx?value=636461676799220799&id=17148) til betaling af materiale.
+ 4. Et [link til DD Labs webshop](http://auws.au.dk/forms/frm1Arrangement.aspx?value=636461676799220799&id=17148) til betaling af materiale.
 
 ## Den nemme måde
 
