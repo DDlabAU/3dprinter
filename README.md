@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [3D printer](#3d-printer)
+  - [Den nemme måde](#den-nemme-m%C3%A5de)
+      - [Find fil på Thingiverse](#find-fil-p%C3%A5-thingiverse)
+      - [Gør fil klar til print i Cura](#g%C3%B8r-fil-klar-til-print-i-cura)
+        - [Tricks til bedre print](#tricks-til-bedre-print)
+  - [Materiale](#materiale)
+    - [Skift materiale:](#skift-materiale)
+    - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
+  - [design af egne modeller](#design-af-egne-modeller)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 3D printer
 
 **Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende**:
@@ -52,14 +68,14 @@ Det kan tit være en fordel at printe sin model på en bund, så der er et lag m
 **Tape på varmepladen**:
 Flere guides på nettet anbefaler man putter lim på printerens byggeplade. **Det anbefaler vi ikke!**. Det kan derimod være en fordel at putte den blå tape på byggepladen der kan findes i en kasse under vinylcutteren (der står ved siden af 3D printeren).
 
- ## Materiale
- **Hvilket materiale bliver der brugt**:  
- Vi har flere forskellige typer af materiale-ruller men fællesnævneren er at det hele er PLA, hvilket er en mere miljøvenlig plastik, da den er bionedbrydelig. Dermed ikke sagt at man bare skal printe løs og smide det i naturen, for det kræver særlige forhold at nedbrude materialet. Printer man noget, må det gerne være for sjov, det skal også bare have sted i verden (eksempelvis awesome digital design prototyper).
+## Materiale
+**Hvilket materiale bliver der brugt**:  
+Vi har flere forskellige typer af materiale-ruller men fællesnævneren er at det hele er PLA, hvilket er en mere miljøvenlig plastik, da den er bionedbrydelig. Dermed ikke sagt at man bare skal printe løs og smide det i naturen, for det kræver særlige forhold at nedbrude materialet. Printer man noget, må det gerne være for sjov, det skal også bare have sted i verden (eksempelvis awesome digital design prototyper).
 
-**Skift materiale**:
+### Skift materiale:
 Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller med 3D-printer plast. Fordelen ved at bruge dem  
 
-**Fjerne færdigt print**:
+### Fjerne færdigt print:
 
 
 ## design af egne modeller
