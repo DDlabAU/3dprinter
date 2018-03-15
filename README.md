@@ -1,6 +1,5 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [3D printer](#3d-printer)
   - [Den nemme måde](#den-nemme-m%C3%A5de)
@@ -11,9 +10,6 @@
     - [Skift materiale:](#skift-materiale)
     - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
   - [design af egne modeller](#design-af-egne-modeller)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # 3D printer
 
 **Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende**:
@@ -77,5 +73,7 @@ Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller
 
 ### Fjerne færdigt print:
 
-
 ## design af egne modeller
+
+
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
