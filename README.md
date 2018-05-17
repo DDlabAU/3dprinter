@@ -10,6 +10,7 @@
     - [Skift materiale:](#skift-materiale)
     - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
   - [design af egne modeller](#design-af-egne-modeller)
+    - [Valg af program](#Valg-af-program)
 # 3D printer
 
 **Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende**:
@@ -61,19 +62,29 @@ Jo mere support der skal bruges jo større er sandsynligheden for fejl-print, me
 **Build plate**:  
 Det kan tit være en fordel at printe sin model på en bund, så der er et lag mellem printerens byggeplade og ens 3D-model. Hvis man vil have det skal man tjekke 'Build Plate' kassen af.
 
-**Tape på varmepladen**:
-Flere guides på nettet anbefaler man putter lim på printerens byggeplade. **Det anbefaler vi ikke!**. Det kan derimod være en fordel at putte den blå tape på byggepladen der kan findes i en kasse under vinylcutteren (der står ved siden af 3D printeren).
+**Limstift varmepladen**:  
+For at være sikker på at printet binder til "sengen" (glaspladen i bunden af printeren), kan man påføre et tyndt lag af almindelig limstift. Nederst til højre i reolen ved siden af printerne er der en blå kasse i med gule limstifter i.  
+Inden i påfører lim skal i sørge for at der ikke sidder gamle rester på, men endnu vigtigere, så **skal** glasset vaskes rent efter **hvert** print.
+Rengøring af glasset foregår under varmt vand i køkkenet og vær forsigtig med at håndtering af glasset
+For at tage bunden ud drejes de to metal klamper væk fra midten og glasset kan forsigtigt tages ud.
+
+Vi har tidligere eksperimenteret med at bruge tape og spidersheet på glaspladen. Det har vi foretrukket fordi de betyder mindre håndtering af selve pladen. Derfor opfordrer vi alle der bruger printeren til at være ekstra påpasselige med ikke at ridse eller splintre med glasset, så vi forsat kan printe.
 
 ## Materiale
 **Hvilket materiale bliver der brugt**:  
 Vi har flere forskellige typer af materiale-ruller men fællesnævneren er at det hele er PLA, hvilket er en mere miljøvenlig plastik, da den er bionedbrydelig. Dermed ikke sagt at man bare skal printe løs og smide det i naturen, for det kræver særlige forhold at nedbrude materialet. Printer man noget, må det gerne være for sjov, det skal også bare have sted i verden (eksempelvis awesome digital design prototyper).
 
 ### Skift materiale:
-Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller med 3D-printer plast. Fordelen ved at bruge dem  
+Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller med 3D-printer plast. Fordelen ved at bruge dem er at man ikke manuelt skal intaste hvilket materiale man bruger. Dog er det ikke svært at skrive ind manuelt og rullerne uden NFC er billigere. Derfor vil vi gerne opfordre til at man bruger de billige til test print og tidlige prototyper.  
 
 ### Fjerne færdigt print:
+For at undgå at bøje sit print anbefaler vi at lade printet og glaspladen køle ned inden man fjerner det fra platformen. Hvis printet har en stor kontaktflade med printerens seng, så kan man fremskynde processen ved at tage glasset og lægge det i køleskabet.   
+For at få fat under printet og vippe det af, kan man en [jimmy](https://www.ifixit.com/Store/Tools/Jimmy/IF145-259-1).
 
 ## design af egne modeller
+
+### Valg af program
+Der findes ufattelig mange programmer til at lave 3D-modeller og er man allerede ekspert i et 3D program, så skal man endelig benytte det. I lab'et anbefaler vi dog programmet [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) som er gratis for studerende.
 
 
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
