@@ -1,20 +1,18 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [3D printer](#3d-printer)
-  - [Den nemme måde](#den-nemme-m%C3%A5de)
-      - [Find fil på Thingiverse](#find-fil-p%C3%A5-thingiverse)
-      - [Gør fil klar til print i Cura](#g%C3%B8r-fil-klar-til-print-i-cura)
-        - [Tricks til bedre print](#tricks-til-bedre-print)
-  - [Materiale](#materiale)
-    - [Skift materiale:](#skift-materiale)
-    - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
-  - [design af egne modeller](#design-af-egne-modeller)
-    - [Valg af program](#Valg-af-program)
 # 3D printer
+## Indhold 
+- [Før du printer](#før-du-printer)
+- [Den nemme måde](#den-nemme-m%C3%A5de)
+    - [Find fil på Thingiverse](#find-fil-p%C3%A5-thingiverse)
+    - [Gør fil klar til print i Cura](#g%C3%B8r-fil-klar-til-print-i-cura)
+      - [Tricks til bedre print](#tricks-til-bedre-print)
+- [Materiale](#materiale)
+  - [Skift materiale:](#skift-materiale)
+  - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
+- [design af egne modeller](#design-af-egne-modeller)
+  - [Valg af program](#Valg-af-program)
 
-**Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende**:
-
+## Før du printer
+Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende:
  0. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
  1. En 3D-fil med filtypen STL.
  2. En computer med [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software) installeret.
@@ -101,6 +99,3 @@ For at få fat under printet og vippe det af, kan man en [jimmy](https://www.ifi
 
 ### Valg af program
 Der findes ufattelig mange programmer til at lave 3D-modeller og er man allerede ekspert i et 3D program, så skal man endelig benytte det. I lab'et anbefaler vi dog programmet [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) som er gratis for studerende.
-
-
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
