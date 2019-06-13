@@ -88,14 +88,14 @@ Under print kan der opstå en del warping så det kan være sværere at bruge en
 **PVA:**
 PVA er en form for vandopløseligt plastik. Det er godt at bruge til at lave mere avancerede prints, da det kan bruges til at printe supports. 
 
-### Skift materiale:
+### Skift materiale
 Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller med 3D-printer plast. Fordelen ved at bruge dem er at man ikke manuelt skal intaste hvilket materiale man bruger. Dog er det ikke svært at skrive ind manuelt og rullerne uden NFC er billigere. Derfor vil vi gerne opfordre til at man bruger de billige til test print og tidlige prototyper.  
 
-### Fjerne færdigt print:
+### Fjern færdigt print
 For at undgå at bøje sit print anbefaler vi at lade printet og glaspladen køle ned inden man fjerner det fra platformen. Hvis printet har en stor kontaktflade med printerens seng, så kan man fremskynde processen ved at tage glasset og lægge det i køleskabet.   
 For at få fat under printet og vippe det af, kan man en [jimmy](https://www.ifixit.com/Store/Tools/Jimmy/IF145-259-1).
 
-## design af egne modeller
+## Design af egne modeller
 
 ### Valg af program
 Der findes ufattelig mange programmer til at lave 3D-modeller og er man allerede ekspert i et 3D program, så skal man endelig benytte det. I lab'et anbefaler vi dog programmet [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) som er gratis for studerende.
