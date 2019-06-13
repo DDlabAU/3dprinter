@@ -2,14 +2,14 @@
 ## Indhold 
 - [Før du printer](#før-du-printer)
 - [Den nemme måde](#den-nemme-m%C3%A5de)
- - [Find fil på Thingiverse](#find-fil-p%C3%A5-thingiverse)
- - [Gør fil klar til print i Cura](#g%C3%B8r-fil-klar-til-print-i-cura)
-  - [Tricks til bedre print](#tricks-til-bedre-print)
+  - [Find fil på Thingiverse](#find-fil-p%C3%A5-thingiverse)
+  - [Gør fil klar til print i Cura](#g%C3%B8r-fil-klar-til-print-i-cura)
+    - [Tricks til bedre print](#tricks-til-bedre-print)
 - [Materiale](#materiale)
- - [Skift materiale:](#skift-materiale)
- - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
+  - [Skift materiale:](#skift-materiale)
+  - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
 - [design af egne modeller](#design-af-egne-modeller)
- - [Valg af program](#Valg-af-program)
+  - [Valg af program](#Valg-af-program)
 
 ## Før du printer
 Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende:
