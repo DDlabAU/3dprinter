@@ -13,7 +13,7 @@
 ## Før du printer
 Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende:
  0. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
- 1. En 3D-fil med filtypen STL.
+ 1. En 3D-fil af filtypen STL eller OBJ.
  2. En computer med [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software) installeret.
  3. USB-pen.
  4. Et [link til DD Labs webshop](http://auws.au.dk/forms/frm1Arrangement.aspx?value=636461676799220799&id=17148) til betaling af materiale.
@@ -24,7 +24,7 @@ Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis fin
 I dette eksempel vil jeg tage udgangspunkt i en [dørstopper](https://www.thingiverse.com/thing:2642527).
 
 ## Gør fil klar til print i Cura
-Næste trin er at åbne sin 3D-fil i Cura. Dette kan gøres ved at trykke på 'File -> open File(s)' og så vælge sin fil.
+Næste trin er at åbne sin 3D-fil i Cura. Dette kan gøres ved at trykke på `File` ➝ `open File(s)` og så vælge sin fil.
 
 Filen er importeret og man kan nu ændre på størrelsen på printet og orientering ved hjælp af værktøjerne i venstre side.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/01.png)
