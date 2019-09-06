@@ -19,15 +19,13 @@ Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende:
  3. USB-pen.
  4. Et [link til DD Labs webshop](http://auws.au.dk/forms/frm1Arrangement.aspx?value=636461676799220799&id=17148) til betaling af materiale.
 
-## Den nemme måde
+## Find fil på Thingiverse
+Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), som er en delingside for makere, hvor downloade gratis 3D-modeller af alt fra skakbrikker til skelettet til droner.
 
-#### Find fil på Thingiverse
-Det kan være vanskeligt og tidkrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), som er en delingside for makere, hvor downloade gratis 3D-modeller af alt fra skakbrikker til skelettet til droner.
+I dette eksempel vil jeg tage udgangspunkt i en [dørstopper](https://www.thingiverse.com/thing:2642527).
 
-I dette eksempel vil jeg tage udgangspunkt i en [dørstopper](https://www.thingiverse.com/thing:2642527) (fordi lab'et mangler en).
-
-#### Gør fil klar til print i Cura
-Næste trin er at åbne sin 3D-fil i Cura Dette kan gøres ved at trykke på 'File -> open File(s)' og så vælge sin fil.
+## Gør fil klar til print i Cura
+Næste trin er at åbne sin 3D-fil i Cura. Dette kan gøres ved at trykke på 'File -> open File(s)' og så vælge sin fil.
 
 Filen er importeret og man kan nu ændre på størrelsen på printet og orientering ved hjælp af værktøjerne i venstre side.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/01.png)
@@ -42,35 +40,34 @@ Når filen har de rigtige dimensioner skal den eksporteres til gcode (som printe
 
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/08.jpg)
 
-##### Tricks til bedre print
-**Materiale & extruder**:  
+## Tricks til bedre print
+### Materiale & extruder  
 I højre top kan man vælge hvilken "extruder" printeren skal bruge samt hvilket materiale der er tale om. Det er muligt at vælge begge extruders i samme print, men det tager VÆSENTLIG længere tid samt der er større sandsynlighed for fejl-print.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/04.png)
 
-**Print Setup**:  
+### Print Setup  
 Under indstillinger for for materialer og extruders finder man print setup. Den indstilling der hedder 'recommended' er den der almindeligvis skal bruges, men skal man have lavet noget mere avanceret, så tag fat i en ansat fra lab'et.  
 Infill beskriver hvor meget printeren fylder ind i modellen. Hvis man skal printe noget der kan holde til noget, så kan man med fordel sætte infill procenten op. Eksemplet med dørstopperen sætter forsøger jeg med 50% fyld. Man skal være opmærksom på at dette gøre printetiden længere samt printet dyrere da der bruges mere materiale.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/05.png)
 
-**Support**:  
-Support skal sættes til hvis der frithængende elementer på ens model, da printeren ikke kan lægge plastik ovenpå luft. Support kan ses som et stillads som printeren bruger til at
+### Support  
+Support skal sættes til hvis der frithængende elementer på ens model, da printeren ikke kan lægge plastik ovenpå luft. Support kan ses som et stillads som printeren bruger til at printe de frithængende dele af en model. 
 Jo mere support der skal bruges jo større er sandsynligheden for fejl-print, men der bruges også væsentlig mere materiale. Derfor anbefales det at man roterer sin model så der skal bruges så lidt support som muligt.  
 ![](https://github.com/DDlabAU/3DPrinter/blob/master/Billeder/06.png)
 
-**Build plate**:  
+### Build plate  
 Det kan tit være en fordel at printe sin model på en bund, så der er et lag mellem printerens byggeplade og ens 3D-model. Hvis man vil have det skal man tjekke 'Build Plate' kassen af.
 
-**Limstift varmepladen**:  
+### Limstift varmepladen  
 For at være sikker på at printet binder til "sengen" (glaspladen i bunden af printeren), kan man påføre et tyndt lag af almindelig limstift. Nederst til højre i reolen ved siden af printerne er der en blå kasse i med gule limstifter i.  
 Inden i påfører lim skal i sørge for at der ikke sidder gamle rester på, men endnu vigtigere, så **skal** glasset vaskes rent efter **hvert** print.
-Rengøring af glasset foregår under varmt vand i køkkenet og vær forsigtig med at håndtering af glasset
+Rengøring af glasset foregår under varmt vand i køkkenet. Her er det vigtigt at være forsigtig med at håndtering af glasset.
 For at tage bunden ud drejes de to metal klamper væk fra midten og glasset kan forsigtigt tages ud.
 
 Vi har tidligere eksperimenteret med at bruge tape og spidersheet på glaspladen. Det har vi foretrukket fordi de betyder mindre håndtering af selve pladen. Derfor opfordrer vi alle der bruger printeren til at være ekstra påpasselige med ikke at ridse eller splintre med glasset, så vi forsat kan printe.
 
 ## Materiale
-**Hvilket materiale bliver der brugt**:  
-Vi har flere forskellige typer af materiale-ruller. Herunder kan nævnes PLA, Nylon, TPU, PC og PVA. 
+Vi har flere forskellige typer af materiale-ruller. Herunder kan nævnes PLA, Nylon, TPU, PC og PVA. Hvilket materiale man vælger at anvende, kommer an på ens print og hvad man skal bruge det til. Hvis der ikke er nogen specikke krav til printet, anbefaler vi at man bruger PLA.
 
 **PLA:**
 Den oftest brugte er typen PLA, hvilket er en miljøvenlig plastik, da den er bionedbrydelig. Dermed ikke sagt at man bare skal printe løs og smide det i naturen, for det kræver særlige forhold at nedbrude materialet. Printer man noget, må det gerne være for sjov, det skal også bare have sted i verden (eksempelvis awesome digital design prototyper).
@@ -98,4 +95,5 @@ For at få fat under printet og vippe det af, kan man en [jimmy](https://www.ifi
 ## Design af egne modeller
 
 ### Valg af program
-Der findes ufattelig mange programmer til at lave 3D-modeller og er man allerede ekspert i et 3D program, så skal man endelig benytte det. I lab'et anbefaler vi dog programmet [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) som er gratis for studerende.
+Der findes ufattelig mange programmer til at lave 3D-modeller og er man allerede ekspert i et 3D program, så skal man endelig benytte det. I Lab'et anbefaler vi at man starter med programmet [Tinkercad](https://www.tinkercad.com), der er en begyndervenlig introduktion til 3d-modellering. 
+Skal man lave mere avancerede modeller kan man bruge programmet [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) som er gratis for studerende. Fusion er en industristandard, hvor man nemmere kan lave mere komplekse modeller, men dog kræver at man bruger en del mere tid på at komme godt ind i programmet. 
