@@ -1,3 +1,5 @@
+![3DPrintImage](Billeder/3DPrint.png)
+
 # 3D printer
 ## Indhold 
 - [Før du printer](#før-du-printer)
