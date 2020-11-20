@@ -18,7 +18,7 @@ Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende:
  1. En 3D-fil af filtypen STL eller OBJ.
  2. En computer med [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software) installeret.
  3. USB-pen.
- 4. Et [link til DD Labs webshop](http://auws.au.dk/forms/frm1Arrangement.aspx?value=636461676799220799&id=17148) til betaling af materiale.
+ 4. Et [link til DD Labs webshop](http://ddlab.au.dk/webshop) til betaling af materiale.
 
 ## Find fil på Thingiverse
 Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), som er en delingside for makere, hvor downloade gratis 3D-modeller af alt fra skakbrikker til skelettet til droner.
