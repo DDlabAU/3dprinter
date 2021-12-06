@@ -56,7 +56,7 @@ Jo mere support der skal bruges jo større er sandsynligheden for fejl-print, me
 ![](Billeder/06.png)
 
 ### Print core
-På Ultimaker 3 Extended sidder der en printcore på 0,8mm. Denne printcore tilader at man kan øge layer hight og dermed kan printe færre lag hvilket gør printet hurtigere. Da lagene kan printes tykkere vil de også blive mere tydelige og kvaliteten bliver ikke så høj.
+På Ultimaker 3 Extended sidder der en printcore på 0,8mm. Denne printcore tilader at man kan øge layer hight og dermed kan printe færre lag hvilket gør printet hurtigere. Da lagene kan printes tykkere vil de også blive mere tydelige og kvaliteten bliver ikke så høj. Dvs. at den printer med bredere og højere linjer.
 
 ### Build plate  
 Det kan tit være en fordel at printe sin model på en bund, så der er et lag mellem printerens byggeplade og ens 3D-model. Hvis man vil have det skal man tjekke 'Build Plate' kassen af.
