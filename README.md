@@ -7,15 +7,24 @@
 ## Guides
 ### Filamentprintere
 
-![Prusa](Billeder/Prusa_i3_mk3.jpg)
-
-[Prusa printere](3dprinter/Prusa-Printere/)
-
-![Ultimaker](Billeder/3DPrint.png)
-
-[Ultimaker printere](3dprinter/Ultimaker-Printere/)
+<table>
+  <tr>
+    <td><img src="Billeder/Prusa_i3_mk3.jpg" alt="Prusa printere"/></td>
+    <td><img src="Billeder/3DPrint.png" alt="Ultimakerprintere"/></td>
+  </tr>
+  <tr>
+  <td> <a href="/Prusa-Printere/">Prusa printere</a> </td>
+  <td> <a href="/Ultimaker-Printere/">Ultimaker printere</a>  </td>
+  </tr>
+</table>
 
 ### Resinprinter
-![Form 3](Billeder/Form3.png)
 
-[Form 3 printer](3dprinter/Form3-Printer/)
+<table>
+  <tr>
+    <td><img src="Billeder/Form3.png" alt="Form 3"/></td>
+  </tr>
+  <tr>
+  <td> <a href="/Form3-Printer/">Form 3 printer</a> </td>
+  </tr>
+</table>

@@ -51,7 +51,7 @@ Denne guide vil gå i dybden med processen fra klargøring af din 3D model til f
 <table>
   <tr>
     <td><img src="https://s3.amazonaws.com/servicecloudassets.formlabs.com/media/Form%203/Getting%20Started%20With%20The%20Form%203/Quick%20Start%20Guide%20%28Form%203%29/qsg-form3-components.png" alt="Form 3 components"/></td>
-    <td> 1. Resin Cartridge - hvorfra ny resin fyldes på printeren </br></br> 2. Status light </br></br> 3. Cover - der kun skal være åbent når det er nødvendigt.</br></br> 4. Build Platform - hvorpå printet printes </br></br> 5. Resin Tank - hvor i resinen fra resin cartridge på fyldes for at kunne printe på build platformen </br></br> 6. Touchscreen - hvorpå prints igangsættes </br></br> 7. Status light </br></br> 8. Leveling disc </td>
+    <td> <p>1. Resin Cartridge - hvorfra ny resin fyldes på printeren </br></br> 2. Status light </br></br> 3. Cover - der kun skal være åbent når det er nødvendigt.</br></br> 4. Build Platform - hvorpå printet printes </br></br> 5. Resin Tank - hvor i resinen fra resin cartridge på fyldes for at kunne printe på build platformen </br></br> 6. Touchscreen - hvorpå prints igangsættes </br></br> 7. Status light </br></br> 8. Leveling disc</p> </td>
   </tr>
 </table>
 
