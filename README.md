@@ -9,12 +9,12 @@
 
 <table>
   <tr>
-    <td><img src="Billeder/Prusa_i3_mk3.jpg" alt="Prusa printere"/></td>
+    <td><a href="/3dprinter/Prusa-Printere/"><img src="Billeder/Prusa_i3_mk3.jpg" alt="Prusa printere"/></a></td>
     <td><img src="Billeder/3DPrint.png" alt="Ultimakerprintere"/></td>
   </tr>
   <tr>
-  <td> <a href="/Prusa-Printere/">Prusa printere</a> </td>
-  <td> <a href="/Ultimaker-Printere/">Ultimaker printere</a>  </td>
+  <td> <a href="/3dprinter/Prusa-Printere/">Prusa printere</a> </td>
+  <td> <a href="/3dprinter/Ultimaker-Printere/">Ultimaker printere</a>  </td>
   </tr>
 </table>
 
@@ -25,6 +25,6 @@
     <td><img src="Billeder/Form3.png" alt="Form 3"/></td>
   </tr>
   <tr>
-  <td> <a href="/Form3-Printer/">Form 3 printer</a> </td>
+  <td> <a href="/3dprinter/Form3-Printer/">Form 3 printer</a> </td>
   </tr>
 </table>
