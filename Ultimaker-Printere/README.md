@@ -6,7 +6,7 @@ permalink: /Ultimaker-Printere/
 
 ![3DPrintImage](Billeder/3DPrint.png)
 
-# Ultimaker 3d-filamentprintere
+# Ultimaker 3D-filamentprintere
 ## Indhold
 - [Før du printer](#før-du-printer)
 - [Find fil på Thingiverse](#find-fil-p%C3%A5-thingiverse)
