@@ -14,16 +14,16 @@ Denne guide vil gå i dybden med processen fra klargøring af din 3D model til f
 * [Klargør dit print med PreForm](#klargør-dit-print-med-preform)
   * [Opsætning i PreForm](#opsætning-i-preform)
 * [Print med Form 3](#print-med-form-3)
-  * [<u>Start dit print</u>](#ustart-dit-printu)
-  * [<u>Efter printet er printet</u>](#uefter-printet-er-printetu)
-  * [<u>SIKKERHED</u>](#usikkerhedu)
+  * [Start dit print](#start-dit-print)
+  * [Efter printet er printet](#efter-printet-er-printet)
+  * [SIKKERHED](#sikkerhed)
 * [Form Wash](#form-wash)
-  * [<u>Start rensning af printet</u>](#ustart-rensning-af-printetu)
-  * [<u>Efter printet er renset</u>](#uefter-printet-er-rensetu)
-  * [<u>SIKKERHED</u>](#usikkerhedu)
+  * [Start rensning af printet](#start-rensning-af-printet)
+  * [Efter printet er renset](#efter-printet-er-renset)
+  * [SIKKERHED](#sikkerhed)
 * [Form Cure](#form-cure)
-  * [<u>Start curing af printet</u>](#ustart-curing-af-printetu)
-  * [<u>Efter curing af printet</u>](#uefter-curing-af-printetu)
+  * [Start curing af printet](#start-curing-af-printet)
+  * [Efter curing af printet](#efter-curing-af-printet)
 * [Wash og Cure tidsrum og temperaturer for resin i labbet](#wash-og-cure-tidsrum-og-temperaturer-for-resin-i-labbet)
 <!-- /TOC -->
 
@@ -100,7 +100,7 @@ Hvis du udhuler dit print er det vigtigt at tilføje **minimum 2 udløbshuller**
 
 Du har nu forberedt din 3D model i PreForm og er klar til at starte dit print.
 
-### <u>Start dit print</u>
+### Start dit print
 
 **1. Klargør printeren**
 
@@ -123,7 +123,7 @@ Du har nu forberedt din 3D model i PreForm og er klar til at starte dit print.
 
 Dit print er nu i gang og du kan se hvor længe det tager. Du har lov til at forlade labbet mens dit print printes.
 
-### <u>Efter printet er printet</u>
+### Efter printet er printet
 - **Ifør dig handsker**
 - Luk for luftslusen på resin cartridge i toppen af printeren.
 - Åben for låget/cover på printeren
@@ -136,7 +136,7 @@ Hvis størrelsen på printet ikke kan være i Form Wash når det sidder på buil
 
 **Husk at betale for vægten af dit print på vores [webshop](https://ddlab.au.dk/webshop).**
 
-### <u>SIKKERHED</u>
+### SIKKERHED
 
 Resin er sundhedsskadeligt. Undgå derfor at indånde dampe fra det samt at få det på huden.
 
@@ -152,7 +152,7 @@ Hvis du spilder resin bør det tøres op med et papirhåndklæde med rigeligt is
 <!-- ![Form Wash](https://cdn-reichelt.de/bilder/web/xxl_ws/EB00/FORMLABS_FORM_WASH_01.png) -->
 <img src="https://cdn-reichelt.de/bilder/web/xxl_ws/EB00/FORMLABS_FORM_WASH_01.png" alt="Form Wash" width="400"/>
 
-### <u>Start rensning af printet</u>
+### Start rensning af printet
 **Klargør Form Wash til printet**
 - **Ifør dig handsker**
 - Se på væskeniveauet på Form Wash og tjek at niveauet ligger mellem afmærkningerne for det maximale og minimale væskeniveau. Hvis dette ikke er tilfældet skal du henvende dig til en ansat i labbet.
@@ -167,7 +167,7 @@ Hvis du spilder resin bør det tøres op med et papirhåndklæde med rigeligt is
 
 Du må gerne forlade labbet mens dit print renses, en vær venligst tilbage inden rensningen er færdig, da Form Wash vil hæve printet op når den er færdig, hvilket vil efterlade tanken åben for isopropylalkoholen, der vil fordampe.
 
-### <u>Efter printet er renset</u>
+### Efter printet er renset
 **Afmontér printet fra build platformen**
 - **Ifør dig handsker**
 - Slide build platformen af Form Wash/Tag dit print ud af kurven
@@ -182,7 +182,7 @@ Du må gerne forlade labbet mens dit print renses, en vær venligst tilbage inde
 - Du kan nu tage handskerne af (indtil dit print skal cures)
 - Brug fjernbetjeningen til filteret til at sætte en timer på 2 timer (aktuelle indstillinger er angivet med lamperne på siden af filteret, der vender hen mod vinduet).
 
-### <u>SIKKERHED</u>
+### SIKKERHED
 
 Væsken i Form wash er isopropylalkohol. Denne væske er brandfarlig og sundhedsskadelig hvis det rører huden eller damene fra det indåndes. Derudover er der resin-rester i væsken i maskinen. **Låget til Form Wash bør derfor IKKE åbnes unødvendigt!**
 
@@ -195,14 +195,14 @@ Hvis du spilder isopropylalkohol bør det tøres op med et papirhåndklæde. Bru
 ## Form Cure
 ![Form Cure](https://formlabs.com/checkout-media/catalog/product/600x600/f/h/fh-cu-01_sq.png)
 
-### <u>Start curing af printet</u>
+### Start curing af printet
 - **Ifør dig handsker**
 - Åben Form Cure, placér dit print på den runde skive og luk Form Cure
 - Du kan nu tage handskerne af for sidste gang
 - Tryk på drejeknappen for at tænde Form Wash
 - Drej på knappen for at vælge den korrekte tid og temperatur til resinen du har brugt. Anbefalede cure-tidsrum for resiner tilgængelige i labbet kan findes [her](#wash-og-cure-tider-og-temperaturer-for-resin-i-labbet).
 
-### <u>Efter curing af printet</u>
+### Efter curing af printet
 Printet kan er nu færdigt og kan røres uden at iføre sig handsker. Vær opmærksom på at printet kan være varmt lidt tid efter det er færdigt i Form Cure.
 
 
@@ -210,7 +210,7 @@ Printet kan er nu færdigt og kan røres uden at iføre sig handsker. Vær opmæ
 
 |Resin| Wash-tid | Cure-tid | Cure-temperatur|
 |---|---|---|---|
-|Formlabs Photopolymer Resin Grey V4 | Min. 10 minutter | Anbefaling: min. 30 minutter</br>Fuld cure: 60 minutter| 60 &deg;C |
+|Formlabs Photopolymer Resin Grey V4 | Min. 10 minutter | Anbefaling: min. 30 minutter<br/>Fuld cure: 60 minutter| 60 &deg;C |
 |Formlabs Photopolymer Resin Flexible 80A | 10 minutter + 10 minutter i ren Isopropylalkohol*| Fuld cure: 10 minutter| 60 &deg;C |
 |Formlabs Photopolymer Resin Tough 2000 | 10 minutter + 10 minutter i ren Isopropylalkohol*| Anbefaling: 60 minutter | 70 &deg;C |
 
