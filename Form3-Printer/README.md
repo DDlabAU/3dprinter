@@ -66,7 +66,7 @@ For at kunne bruge PreForm skal din 3D model enten være en **STL- eller OBJ-fil
 
 De maksimale mål for printet er: **14,5 × 14,5 × 18,5 cm**
 
-[**PreForm kan downloades her**](https://formlabs.com/software/#preform)
+**[PreForm kan downloades her](https://formlabs.com/software/#preform)**
 
 ### Opsætning i PreForm
 
