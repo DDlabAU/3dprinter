@@ -1,3 +1,9 @@
+---
+theme: jekyll-theme-minimal
+title: "Guide til Form 3 resinprinteren"
+permalink: /Form3-Printer/
+---
+
 # Form 3 Resin 3D Printer
 
 ![Form 3](https://3dverkstan.dk/wp-content/uploads/2021/10/image_3_export_artboard_.png)

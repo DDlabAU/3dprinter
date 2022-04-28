@@ -1,3 +1,9 @@
+---
+theme: jekyll-theme-minimal
+title: "Guide til Ultimaker filamentprintere"
+permalink: /Ultimaker-Printere/
+---
+
 ![3DPrintImage](Billeder/3DPrint.png)
 
 # Ultimaker 3d-filamentprintere
