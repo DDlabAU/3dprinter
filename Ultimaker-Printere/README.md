@@ -15,7 +15,7 @@
 ## Før du printer
 Når man bruger Lab'ets Ultimaker 3 så kræver det at man har følgende:
 
- 0. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
+0. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
  1. En 3D-fil af filtypen STL eller OBJ.
  2. En computer med [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software) installeret.
  3. USB-pen.
