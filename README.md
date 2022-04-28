@@ -18,7 +18,7 @@
   </tr>
 </table>
 
-![Prusaprinterguide](/Prusa-Printere/) test
+[Prusaprinterguide](/Prusa-Printere/)
 
 ### Resinprinter
 
