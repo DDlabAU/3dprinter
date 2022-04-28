@@ -1,7 +1,7 @@
 ![3DPrintImage](Billeder/3DPrint.png)
 
-# 3D printer
-## Indhold 
+# Ultimaker 3d-filamentprintere
+## Indhold
 - [Før du printer](#før-du-printer)
 - [Find fil på Thingiverse](#find-fil-p%C3%A5-thingiverse)
 - [Gør fil klar til print i Cura](#g%C3%B8r-fil-klar-til-print-i-cura)
@@ -13,7 +13,8 @@
   - [Valg af program](#Valg-af-program)
 
 ## Før du printer
-Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende:
+Når man bruger Lab'ets Ultimaker 3 så kræver det at man har følgende:
+
  0. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
  1. En 3D-fil af filtypen STL eller OBJ.
  2. En computer med [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software) installeret.
@@ -51,7 +52,7 @@ Infill beskriver hvor meget printeren fylder ind i modellen. Hvis man skal print
 ![](Billeder/05.png)
 
 ### Support  
-Support skal sættes til hvis der frithængende elementer på ens model, da printeren ikke kan lægge plastik ovenpå luft. Support kan ses som et stillads som printeren bruger til at printe de frithængende dele af en model. 
+Support skal sættes til hvis der frithængende elementer på ens model, da printeren ikke kan lægge plastik ovenpå luft. Support kan ses som et stillads som printeren bruger til at printe de frithængende dele af en model.
 Jo mere support der skal bruges jo større er sandsynligheden for fejl-print, men der bruges også væsentlig mere materiale. Derfor anbefales det at man roterer sin model så der skal bruges så lidt support som muligt.  
 ![](Billeder/06.png)
 
@@ -79,14 +80,14 @@ Den oftest brugte er typen PLA, hvilket er en miljøvenlig plastik, da den er bi
 Nylon bruges til industrielle dele. Den er bedst i styrke, fleksibilitet og udholdenhed. Den kan farves, både før og efter printprocessen. Dens negativ side er at der er en større risiko for at printet warper imens det bliver printet.
 
 **TPU:**
-TPU er en plastiktype med gummikvaliteter. Det betyder at den er mere fleksibel og udholdende end f.eks. PLA. Det er blødt og modstandsdygtigt, og egner sig derfor godt til at lave wearables. 
+TPU er en plastiktype med gummikvaliteter. Det betyder at den er mere fleksibel og udholdende end f.eks. PLA. Det er blødt og modstandsdygtigt, og egner sig derfor godt til at lave wearables.
 
 **PC:**
 PC er den stærkeste type 3d-print materiale. Den kan holde til ekstrem varme og slag. Det er gennemsigtigt og bruges blandt andet til skudsikkert glas, dykkermasker og lign. PC har en smule fleksibelt, og kan bøjes.
 Under print kan der opstå en del warping så det kan være sværere at bruge end andre materialer.
 
 **PVA:**
-PVA er en form for vandopløseligt plastik. Det er godt at bruge til at lave mere avancerede prints, da det kan bruges til at printe supports. 
+PVA er en form for vandopløseligt plastik. Det er godt at bruge til at lave mere avancerede prints, da det kan bruges til at printe supports.
 
 ### Skift materiale
 Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller med 3D-printer plast. Fordelen ved at bruge dem er at man ikke manuelt skal intaste hvilket materiale man bruger. Dog er det ikke svært at skrive ind manuelt og rullerne uden NFC er billigere. Derfor vil vi gerne opfordre til at man bruger de billige til test print og tidlige prototyper.  
@@ -98,5 +99,5 @@ For at få fat under printet og vippe det af, kan man bruge en [jimmy](https://w
 ## Design af egne modeller
 
 ### Valg af program
-Der findes ufattelig mange programmer til at lave 3D-modeller og er man allerede ekspert i et 3D program, så skal man endelig benytte det. I Lab'et anbefaler vi at man starter med programmet [Tinkercad](https://www.tinkercad.com), der er en begyndervenlig introduktion til 3d-modellering. 
-Skal man lave mere avancerede modeller kan man bruge programmet [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) som er gratis for studerende. Fusion er en industristandard, hvor man nemmere kan lave mere komplekse modeller, men dog kræver at man bruger en del mere tid på at komme godt ind i programmet. 
+Der findes ufattelig mange programmer til at lave 3D-modeller og er man allerede ekspert i et 3D program, så skal man endelig benytte det. I Lab'et anbefaler vi at man starter med programmet [Tinkercad](https://www.tinkercad.com), der er en begyndervenlig introduktion til 3d-modellering.
+Skal man lave mere avancerede modeller kan man bruge programmet [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) som er gratis for studerende. Fusion er en industristandard, hvor man nemmere kan lave mere komplekse modeller, men dog kræver at man bruger en del mere tid på at komme godt ind i programmet.
