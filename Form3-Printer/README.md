@@ -184,7 +184,7 @@ Hvis du får isopropylalkohol på huden skal du hurtigst muligt vaske området g
 Hvis du spilder isopropylalkohol bør det tøres op med et papirhåndklæde. Brug papir fra rullen i vinduet.
 
 ## Form Cure
-![Form Cure](Billeder/FormWash.jpeg)
+![Form Cure](Billeder/formCure.png)
 
 ### Start curing af printet
 - **Ifør dig handsker**
