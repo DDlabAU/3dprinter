@@ -6,7 +6,7 @@ permalink: /Form3-Printer/
 
 # Form 3 Resin 3D Printer
 
-![Form 3](https://3dverkstan.dk/wp-content/uploads/2021/10/image_3_export_artboard_.png)
+![Form 3](Billeder/Form3.png)
 
 **For at benytte resin-printeren i labbet skal du have kørekort hertil.** Dette opnåes ved at gennemføre DD Lab's resin print workshop. Kontakt DD Lab for at arrangere en sådan workshop, enten ved at gå til en DD Lab medarbejder i labbets åbningstid, skrive til os på [facebook](https://www.facebook.com/AUDDLab) eller skrive en e-mail til os på [ddlabau@gmail.com](mailto:ddlabau@gmail.com).
 
@@ -35,28 +35,9 @@ Denne guide vil gå i dybden med processen fra klargøring af din 3D model til f
 
 ## Komponenter
 
-<!-- ![Form 3 components](https://s3.amazonaws.com/servicecloudassets.formlabs.com/media/Form%203/Getting%20Started%20With%20The%20Form%203/Quick%20Start%20Guide%20%28Form%203%29/qsg-form3-components.png)
-
-1. Resin Cartridge - hvorfra ny resin fyldes på printeren
-
-2. Status light
-
-3. Cover - der kun skal være åbent når det er nødvendigt.
-
-4. Build Platform - hvorpå printet printes
-
-5. Resin Tank - hvor i resinen fra resin cartridge på fyldes for at kunne printe på build platformen
-
-6. Touchscreen - hvorpå prints igangsættes
-
-7. Status light
-
-8. Leveling disc
--->
-
 <table>
   <tr>
-    <td><img src="https://s3.amazonaws.com/servicecloudassets.formlabs.com/media/Form%203/Getting%20Started%20With%20The%20Form%203/Quick%20Start%20Guide%20%28Form%203%29/qsg-form3-components.png" alt="Form 3 components"/></td>
+    <td><img src="Billeder/form3-components.png" alt="Form 3 components"/></td>
     <td> <p>1. Resin Cartridge - hvorfra ny resin fyldes på printeren <br/> 2. Status light <br/> 3. Cover - der kun skal være åbent når det er nødvendigt.<br/> 4. Build Platform - hvorpå printet printes <br/> 5. Resin Tank - hvor i resinen fra resin cartridge på fyldes for at kunne printe på build platformen <br/> 6. Touchscreen - hvorpå prints igangsættes <br/> 7. Status light <br/> 8. Leveling disc</p> </td>
   </tr>
 </table>
@@ -111,7 +92,7 @@ Du har nu forberedt din 3D model i PreForm og er klar til at starte dit print.
 **1. Klargør printeren**
 
 - Tag stofposen af printeren.
-- Tag resin cartridge ud og ryst det lidt og sæt det tilbage (check at udluftningsslusen er lukket inden du ryster).
+- Tag resin cartridge ud og ryst det lidt og sæt det tilbage (check at luftningsslusen er lukket inden du ryster).
 - Kig ned i resin tanken for at sikre at der ikke er stykker af størknet resin der flyder rundt i den flydende resin.
 - Tjek på displayet på printeren, at resin tanken og cartridge er indsat korrekt, og der er resin i printeren. Hvis dette ikke er tilfældet, henvend dig til en ansat i DD Lab.
 - Tjek at build platform (Punkt 4 på billedet ovenfor) er isat korrekt.
@@ -120,7 +101,11 @@ Du har nu forberedt din 3D model i PreForm og er klar til at starte dit print.
 - Sæt din computer til printeren med USB kablet der er tilsluttet printeren.
 - Tænd for filteret placeret bag ved printeren med fjernbetjeningen
 - **Ifør dig handsker!** (Findes til venstre for printeren eller på hylden under printeren)
-- Åben for luftslusen på resin cartridge(Punkt 1 på billedet ovenfor) i toppen af printeren.
+- Åben for luftslusen på resin cartridge i toppen af printeren (Se billederne nedenfor).
+
+![Åben luftslusen1](Billeder/vent-cap1.png)
+![Åben luftslusen2](Billeder/vent-cap2.png)
+
 - Du kan nu tage handskerne af indtil printet er færdig med at printe.
 - Tryk "*Start a print*" i PreForm
 - Vælg printeren "*AheadIbis*"
@@ -156,7 +141,7 @@ Hvis du spilder resin bør det tøres op med et papirhåndklæde med rigeligt is
 
 ## Form Wash
 <!-- ![Form Wash](https://cdn-reichelt.de/bilder/web/xxl_ws/EB00/FORMLABS_FORM_WASH_01.png) -->
-<img src="https://cdn-reichelt.de/bilder/web/xxl_ws/EB00/FORMLABS_FORM_WASH_01.png" alt="Form Wash" width="400"/>
+<img src="Billeder/FORMLABS_FORM_WASH_01.png" alt="Form Wash" width="400"/>
 
 ### Start rensning af printet
 **Klargør Form Wash til printet**
@@ -199,7 +184,7 @@ Hvis du får isopropylalkohol på huden skal du hurtigst muligt vaske området g
 Hvis du spilder isopropylalkohol bør det tøres op med et papirhåndklæde. Brug papir fra rullen i vinduet.
 
 ## Form Cure
-![Form Cure](https://formlabs.com/checkout-media/catalog/product/600x600/f/h/fh-cu-01_sq.png)
+![Form Cure](Billeder/FormWash.jpeg)
 
 ### Start curing af printet
 - **Ifør dig handsker**
