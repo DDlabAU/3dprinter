@@ -69,10 +69,11 @@ Forbered dit print til at blive printet, ved at følge [PreForm guiden her](http
 
 **Tips til support settings**
 
-- Vælg mini rafts, det sparer på resin
-- touchpoint size kan ændres til 0.30 da større supportpinde giver et "udslæt" på printet, så vælg support der er så lille som muligt for at mindske "udslættet".
-- density er hvor tæt supportpindene placeres kan være 0.90
-- advanced settings: Afstand over build platformen kan sættes ned til 2 mm for at spare på resin
+- Vælg *Mini rafts*, det sparer på resin
+- *Touchpoint size* kan ændres til 0.30 da større supportpinde giver et "udslæt" på printet, så vælg support, der er så lille som muligt for at mindske "udslættet".
+- *Density* er hvor tæt supportpindene placeres. dette kan som regel sættes ned til 0.90 medmindre du har med store prints at gøre
+- *Advanced settings*: Afstand over build platformen kan sættes ned til 2 mm for at spare på resin
+- Under *Layer Thickness* kan man vælge *Adaptive layer Thickness*, men det virker bedst hvis det er fordi man vil reducere tiden, det tager at printe.
 - print ikke modellen direkte på build platformen!
 
 **Ved store modeller**
@@ -164,6 +165,7 @@ Du må gerne forlade labbet mens dit print renses, en vær venligst tilbage inde
 - Slide build platformen af Form Wash/Tag dit print ud af kurven
 - Brug igen drejeknappen til at vælge "Sleep", hvorefter Form Wash lukkes
 - Hvis printet ikke allerede er afmonteret fra build platformen skal det gøres nu. Brug evt. build platform mounten samt en spatel (findes på siden af Form Wash) til at stabilisere afmonteringen af printet fra build platformen. Vær forsigtig, da printet stadig er skrøbeligt.
+- Det er også nemmere at fjerne supportmaterialet nu frem for efter printet har curet. Hvis dit print har meget tynde dele anbefales dette dog ikke, da printet stadig er skrøbeligt.
 - Rens build platformen med isopropylalkohol fra sprøjteflasken med alkohol på bordet, og aftør build platformen med mikrofiberkluden på bordet.
 - Åben printeren og sæt build platformen tilbage i printeren.
 - Luk låget til printeren og sæt stofposen tilbage over printeren.
@@ -195,6 +197,8 @@ Hvis du spilder isopropylalkohol bør det tøres op med et papirhåndklæde. Bru
 
 ### Efter curing af printet
 Printet kan er nu færdigt og kan røres uden at iføre sig handsker. Vær opmærksom på at printet kan være varmt lidt tid efter det er færdigt i Form Cure.
+
+Hvis du ikke fjernede supportmaterialet tidligere kan du gøre det nu. Hvis udslættet på printet er slemt kan du evt. bruge sandpapir til at slibe overfladen en smule (Sandpapir findes i grovlabbet).
 
 
 ## Wash og Cure tidsrum og temperaturer for resin i labbet
