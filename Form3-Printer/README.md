@@ -71,8 +71,6 @@ Efter du har downloaded PreForm skal du sætte printeren op med følgende indsti
 Forbered dit print til at blive printet, ved at følge [PreForm guiden her](https://support.formlabs.com/s/article/PreForm?language=en_US).
 
 **Tips til support settings**
-
-- Support indstillinger:
   - Vælg *Mini rafts*, det sparer på resin
   - *Touchpoint size* kan ændres til 0.30 da større supportpinde giver et "udslæt" på printet, så vælg support, der er så lille som muligt for at mindske "udslættet".
   - *Density* er hvor tæt supportpindene placeres. dette kan som regel sættes ned til 0.90 medmindre du har med store prints at gøre
@@ -126,12 +124,12 @@ Dit print er nu i gang og du kan se hvor længe det tager. Du har lov til at for
 - **Ifør dig handsker**
 - Luk for luftslusen på resin cartridge i toppen af printeren.
 - Åben for låget/cover på printeren
-- Frigør buildplatformen og tag det ud af printeren.
+- Frigør buildplatformen og tag det ud af printeren. Hold evt. et papir eller den sorte bakke der ligger til venstre for printeren under buildplatformen for at det ikke drypper.
 - Luk låget/cover på printeren
 
-Hvis printet er småt nok kan du overfør build platformen direkte til Form Wash (se under [Form Wash](#form-wash) hvordan dette gøres)
+Hvis der ikke er andre i kø til resinprinteren kan du overføre build platformen direkte til Form Wash (se under [Form Wash](#form-wash) hvordan dette gøres)
 
-Hvis størrelsen på printet ikke kan være i Form Wash når det sidder på build platformen, frigør printet fra build platformen. Brug evt. mounten til at stabilisere mens du gør dette, men vær forsigtig, da printet er skrøbeligt.
+Hvis størrelsen på printet ikke kan være i Form Wash når det sidder på build platformen, eller der står andre i kø til printeren skal du frigøre printet fra build platformen og så lægge det i kurven i Form Wash i stedet. Brug evt. mounten til at stabilisere mens du fjerner printet fra build platformen, men vær forsigtig, da printet er skrøbeligt.
 
 **Husk at betale for vægten af dit print på vores [webshop](https://ddlab.au.dk/webshop).**
 
@@ -156,12 +154,13 @@ Hvis du spilder resin bør det tøres op med et papirhåndklæde med rigeligt is
 - **Ifør dig handsker**
 - Se på væskeniveauet på Form Wash og tjek at niveauet ligger mellem afmærkningerne for det maximale og minimale væskeniveau. Hvis dette ikke er tilfældet skal du henvende dig til en ansat i labbet.
 - Åben For Wash ved at trykke ind på drejeknappen på Form Wash, vælge "Open" ved at dreje knappen og bekræfte ved at trykke på drejeknappen. Herefter løfter låget i Form Wash sig.
-- Åben låget på printeren, trykke armen op oven på build platformen, hvorefter build platformen kan aftages ved at slide den ud mod dig selv. Pas på hvis der drypper resin fra printet.
+- Åben låget på printeren, tryk armen op oven på build platformen, hvorefter build platformen kan aftages ved at slide den ud mod dig selv. Pas på hvis der drypper resin fra printet, som tidligere nævnt kan du evt. bruge den sorte bakke ved siden af printeren til at holde under printet.
 
 **Overfør dit print til Form Wash**
 - Overfør build platformen med dit print til Form Wash ved at slide den ind på holderne over kurven.
 - Brug drejeknappen til at vælge "Sleep", hvorefter printet synkes ned i væsken.
 - Med drejeknappen kan der nu vælges tiden for wash. Anbefalede vaske-tidsrum for resiner tilgængelige i labbet kan findes [her](#wash-og-cure-tider-og-temperaturer-for-resin-i-labbet).
+- Gør rent efter dig hvis resin er blevet spildt!
 - Du kan nu tage handskerne af (indtil efter printet er vasket).
 
 Du må gerne forlade labbet mens dit print renses, en vær venligst tilbage inden rensningen er færdig, da Form Wash vil hæve printet op når den er færdig, hvilket vil efterlade tanken åben for isopropylalkoholen, der vil fordampe.
