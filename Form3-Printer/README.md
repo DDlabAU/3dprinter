@@ -160,7 +160,7 @@ Hvis du spilder resin bør det tøres op med et papirhåndklæde med rigeligt is
 - Overfør build platformen med dit print til Form Wash ved at slide den ind på holderne over kurven.
 - Brug drejeknappen til at vælge "Sleep", hvorefter printet synkes ned i væsken.
 - Med drejeknappen kan der nu vælges tiden for wash. Anbefalede vaske-tidsrum for resiner tilgængelige i labbet kan findes [her](#wash-og-cure-tider-og-temperaturer-for-resin-i-labbet).
-- Gør rent efter dig hvis resin er blevet spildt!
+- Gør rent efter dig hvis resin er blevet spildt samt rengør værktøjer du har brugt med papir og isopropylalkohol fra sprøjteflasken!
 - Du kan nu tage handskerne af (indtil efter printet er vasket).
 
 Du må gerne forlade labbet mens dit print renses, en vær venligst tilbage inden rensningen er færdig, da Form Wash vil hæve printet op når den er færdig, hvilket vil efterlade tanken åben for isopropylalkoholen, der vil fordampe.
