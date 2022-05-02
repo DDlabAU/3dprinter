@@ -60,21 +60,25 @@ De maksimale mål for printet er: **14,5 × 14,5 × 18,5 cm**
 Du kan forberede dit print før du slutter din computer til printeren.
 
 Efter du har downloaded PreForm skal du sætte printeren op med følgende indstillinger (Indstillingerne kan ændres igen når som helst):
-- Vælg printer: Form 3
-- Vælg resin: Grey V4
+- Vælg printer: **Form 3/3+**
+- Vælg materiale: **Grey V4**
   - Vi kan til tider have andre resiner sat i printeren, i det tilfælde kan det ses på klistermærket på tanken (punkt 5 på billedet ovenfor), der er sat i printeren (spørg evt. en ansat i labbet for at være sikker).
+![Printer and Resin](Billeder/JobSetup.PNG)
 - Layer thickness: Vælg alt efter hvor høj opløsning du ønsker dit print (eller hvor lang tid du har til at printe).
+  - *Adaptive layer Thickness* virker bedst hvis det er fordi man vil reducere tiden, det tager at printe.
+![](Billeder/adaptiveLayer.PNG)
 
 Forbered dit print til at blive printet, ved at følge [PreForm guiden her](https://support.formlabs.com/s/article/PreForm?language=en_US).
 
 **Tips til support settings**
 
-- Vælg *Mini rafts*, det sparer på resin
-- *Touchpoint size* kan ændres til 0.30 da større supportpinde giver et "udslæt" på printet, så vælg support, der er så lille som muligt for at mindske "udslættet".
-- *Density* er hvor tæt supportpindene placeres. dette kan som regel sættes ned til 0.90 medmindre du har med store prints at gøre
-- *Advanced settings*: Afstand over build platformen kan sættes ned til 2 mm for at spare på resin
-- Under *Layer Thickness* kan man vælge *Adaptive layer Thickness*, men det virker bedst hvis det er fordi man vil reducere tiden, det tager at printe.
-- print ikke modellen direkte på build platformen!
+- Support indstillinger:
+  - Vælg *Mini rafts*, det sparer på resin
+  - *Touchpoint size* kan ændres til 0.30 da større supportpinde giver et "udslæt" på printet, så vælg support, der er så lille som muligt for at mindske "udslættet".
+  - *Density* er hvor tæt supportpindene placeres. dette kan som regel sættes ned til 0.90 medmindre du har med store prints at gøre
+  - *Advanced settings*: Afstand over build platformen kan sættes ned til 2 mm for at spare på resin
+![Supportsettings](Billeder/Supportsettings2.png)
+- Print ikke modellen direkte på build platformen!
 
 **Ved store modeller**
 
@@ -103,15 +107,18 @@ Du har nu forberedt din 3D model i PreForm og er klar til at starte dit print.
 - Tænd for filteret placeret bag ved printeren med fjernbetjeningen
 - **Ifør dig handsker!** (Findes til venstre for printeren eller på hylden under printeren)
 - Åben for luftslusen på resin cartridge i toppen af printeren (Se billederne nedenfor).
-
 ![Åben luftslusen1](Billeder/vent-cap1.png)
 ![Åben luftslusen2](Billeder/vent-cap2.png)
-
 - Du kan nu tage handskerne af indtil printet er færdig med at printe.
 - Tryk "*Start a print*" i PreForm
+![Start Print](Billeder/StartPrint.png)
 - Vælg printeren "*AheadIbis*"
+![Choose Printer](Billeder/ChoosePrinter.png)
+![Select Printer](Billeder/SelectPrinter.png)
 - Tryk "*Upload job*"
+![Upload Job](Billeder/uploadPrint.png)
 - Tryk på "*Print*" på printeren's display
+![Start Print](Billeder/Print.jpg)
 
 Dit print er nu i gang og du kan se hvor længe det tager. Du har lov til at forlade labbet mens dit print printes.
 
