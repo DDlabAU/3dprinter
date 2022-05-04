@@ -199,7 +199,7 @@ Hvis du spilder isopropylalkohol bør det tøres op med et papirhåndklæde. Bru
 - Åben Form Cure, placér dit print på den runde skive og luk Form Cure
 - Du kan nu tage handskerne af for sidste gang
 - Tryk på drejeknappen for at tænde Form Wash
-- Drej på knappen for at vælge den korrekte tid og temperatur til resinen du har brugt. Anbefalede cure-tidsrum for resiner tilgængelige i labbet kan findes [her](#wash-og-cure-tider-og-temperaturer-for-resin-i-labbet).
+- Drej på knappen for at vælge den korrekte tid og temperatur til resinen du har brugt. Anbefalede cure-tidsrum for resiner tilgængelige i labbet kan findes [her](#wash-og-cure-tidsrum-og-temperaturer-for-resin-i-labbet).
 
 ### Efter curing af printet
 Printet kan er nu færdigt og kan røres uden at iføre sig handsker. Vær opmærksom på at printet kan være varmt lidt tid efter det er færdigt i Form Cure.
