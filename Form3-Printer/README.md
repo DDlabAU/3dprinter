@@ -97,6 +97,7 @@ Du har nu forberedt din 3D model i PreForm og er klar til at starte dit print.
 - Tag stofposen af printeren.
 - Tag resin cartridge ud og ryst det lidt og sæt det tilbage (check at luftningsslusen er lukket inden du ryster).
 - Kig ned i resin tanken for at sikre at der ikke er stykker af størknet resin der flyder rundt i den flydende resin.
+- Se på build platformen og tjek at den er ren og fri for resin (både flydende og størknet).
 - Tjek på displayet på printeren, at resin tanken og cartridge er indsat korrekt, og der er resin i printeren. Hvis dette ikke er tilfældet, henvend dig til en ansat i DD Lab.
 - Tjek at build platform (Punkt 4 på billedet ovenfor) er isat korrekt.
 
@@ -143,7 +144,7 @@ Når dit print er færdigt og du vil fjerne det fra printeren, overføre den til
 
 Hvis du får resin på huden skal du hurtigst muligt vaske området grundigt med sæbe.
 
-Hvis du spilder resin bør det tøres op med et papirhåndklæde med rigeligt isopropylalkohol på. Brug papir fra rullen i vinduet og alkohol fra spøjteflasken på bordet.
+Hvis du spilder resin bør det tøres op med et papirhåndklæde med rigeligt isopropylalkohol på. Brug papir fra rullen i vinduet og alkohol fra spøjteflasken på bordet. **Hvis du splider resin på/i printeren selv, skal du tilkalde en DD Lab ansat!**
 
 ## Form Wash
 <!-- ![Form Wash](https://cdn-reichelt.de/bilder/web/xxl_ws/EB00/FORMLABS_FORM_WASH_01.png) -->
