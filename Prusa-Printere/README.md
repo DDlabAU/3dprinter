@@ -9,7 +9,7 @@ permalink: /Prusa-Printere/
 # 3D printer
 ## Indhold
 - [Før du printer](#før-du-printer)
-- [Hvis man ikke vil lave sin egen fil](Hvis man ikke vil lave sin egen fil.)
+- [Hvis man ikke vil lave sin egen fil](#Hvis man ikke vil lave sin egen fil)
 - [Gør fil klar til print i PrusaSlicer](#g%C3%B8r-fil-klar-til-print-i-prusaslicer)
 - [Optionelle tricks til bedre print](#optionelle-tricks-til-bedre-print)
 - [Materiale](#materiale)
@@ -27,7 +27,7 @@ Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende:
  4. Et SD Kort - der bør sidde et kort i prusa printerne lige til venstre for displayet.
  5. Et [link til DD Labs webshop](http://ddlab.au.dk/webshop) til betaling af materiale.
 
-## Hvis man ikke vil lave sin egen fil.
+## Hvis man ikke vil lave sin egen fil
 Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), som er en delingside for makere, hvor man kan downloade gratis 3D-modeller af alt fra skakbrikker til droneskeletter.
 
 I dette eksempel vil jeg tage udgangspunkt i en [Skak Bonde](https://www.thingiverse.com/thing:4901226/files) fra sættet "Hexagon Chess Set".
@@ -65,7 +65,7 @@ Når filen har de rigtige dimensioner og er lagt korrekt ned på printpladen **m
 
 ![](Billeder/08.png)
 
-Du undrer dig måske over hvordan det samme print printet hurtigere eller langsommere kan bruge mindre eller mere fillament, hvilket jo ikke rigtigt giver mening hvis det er det samme print. Det kommer af at indfyldningen inden i brikken ændres i forskellige presets, hvis man vil se dette selv kan man trække i den bar der vises på næste billede for at se et snit af ens print.
+Du undrer dig måske over hvordan det samme print printet hurtigere eller langsommere kan bruge mindre eller mere fillament, hvilket jo ikke rigtigt giver mening hvis det er det samme print. Det kommer af at indfyldningen "infill" inden i printet ændres i forskellige presets, hvis man vil se dette selv kan man trække i den bar der vises på næste billede for at se et snit af ens print.
 
 ![](Billeder/09.png)
 
@@ -79,7 +79,7 @@ Man kan nu sætte sit SD kort med ens fil ind i prusa 3d printeren og begynde si
 ## Optionelle tricks til bedre print
 
 ### Print Settings
-Under print settings kan mand indstille forskellige andre indstillingere end de førhennævnte. En af de vigtigste er "Infill". Infill beskriver hvor meget printeren fylder ind i indersiden modellen. Hvis man skal printe noget der kan holde til noget, så kan man med fordel sætte infill procenten op. Eksemplet med skakbrikken forsøger jeg med 15% fyld. Man skal være opmærksom på at dette gør printetiden længere samt printet dyrere hvis man øger indfill da der bruges mere materiale. Høj infill er den største forøgelse af pris og tid man kan gøre sig i, men kan nogle gange være nødvendigt. Meget sjældent er der brug for værdier over 50%, men det kommer kraftigt an på ens print, det anbefales at starte rimeligt lavt (35% og mindre) hvis man ikke skal ligge et kraftigt tryk på ens print. Skal man dog ligge et stærks tryk på ens print f.eks. hvis man printer tandhjul med små tænder, dørstoppere osv, kan man med fordel øge sit infill til 50% og op. Det skal siges at der er "diminishing returns" jo højere man går. Et 100% infill er som oftest ikke meget stærkere end et 70%, men et 50% er langt stærkere end et 20%.
+Under kan man indstille forskellige andre indstillingere end de førhennævnte. En af de vigtigste er "Infill". Infill beskriver hvor meget printeren fylder ind i indersiden modellen. Hvis man skal printe noget der kan holde til noget, så kan man med fordel sætte infill procenten op. Eksemplet med skakbrikken forsøger jeg med 15% fyld. Man skal være opmærksom på at dette gør printetiden længere samt printet dyrere hvis man øger indfill da der bruges mere materiale. Høj infill er den største forøgelse af pris og tid man kan gøre sig i, men kan nogle gange være nødvendigt. Meget sjældent er der brug for værdier over 50%, men det kommer kraftigt an på ens print, det anbefales at starte rimeligt lavt (35% og mindre) hvis man ikke skal ligge et kraftigt tryk på ens print. Skal man dog ligge et stærks tryk på ens print f.eks. hvis man printer tandhjul med små tænder, dørstoppere osv, kan man med fordel øge sit infill til 50% og op. Det skal siges at der er "diminishing returns" jo højere man går. Et 100% infill er som oftest ikke meget stærkere end et 70%, men et 50% er langt stærkere end et 20%.
 
 ### Support  
 Support skal sættes til hvis der frithængende elementer på ens model, da printeren ikke kan lægge plastik ovenpå luft. Support kan ses som et stillads som printeren bruger til at printe de frithængende dele af en model.
