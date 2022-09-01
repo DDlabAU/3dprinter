@@ -9,7 +9,7 @@ permalink: /Prusa-Printere/
 # 3D printer
 ## Indhold
 - [Før du printer](#før-du-printer)
-- [Hvis man ikke vil lave sin egen fil](#Hvis man ikke vil lave sin egen fil)
+- [Hvis man ikke vil lave sin egen fil](#Hvis-man-ikke-vil-lave-sin-egen-fil)
 - [Gør fil klar til print i PrusaSlicer](#g%C3%B8r-fil-klar-til-print-i-prusaslicer)
 - [Optionelle tricks til bedre print](#optionelle-tricks-til-bedre-print)
 - [Materiale](#materiale)
@@ -19,7 +19,7 @@ permalink: /Prusa-Printere/
   - [Valg af program](#Valg-af-program)
 
 ## Før du printer
-Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende:
+Når man bruger Lab'ets Prusa i3 MK3 så kræver det at man har føglende:
 
  1. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
  2. En 3D-fil af filtypen STL eller OBJ.
