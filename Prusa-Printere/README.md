@@ -9,14 +9,14 @@ permalink: /Prusa-Printere/
 # 3D printer
 ## Indhold
 - [Før du printer](#før-du-printer)
-- [Hvis man ikke vil lave sin egen fil](#Hvis-man-ikke-vil-lave-sin-egen-fil)
+- [Hvis man ikke vil lave sin egen fil](#hvis-man-ikke-vil-lave-sin-egen-fil)
 - [Gør fil klar til print i PrusaSlicer](#g%C3%B8r-fil-klar-til-print-i-prusaslicer)
 - [Optionelle tricks til bedre print](#optionelle-tricks-til-bedre-print)
 - [Materiale](#materiale)
   - [Skift materiale:](#skift-materiale)
   - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
 - [Design af egne modeller](#design-af-egne-modeller)
-  - [Valg af program](#Valg-af-program)
+  - [Valg af program](#valg-af-program)
 
 ## Før du printer
 Når man bruger Lab'ets Prusa i3 MK3 så kræver det at man har føglende:
