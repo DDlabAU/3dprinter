@@ -36,13 +36,16 @@ I dette eksempel vil jeg tage udgangspunkt i en [Skak Bonde](https://www.thingiv
 Næste trin er at åbne sin 3D-fil i PrusaSlicer. Dette kan gøres ved at trykke på `File` ➝ `Import` ➝ `Import STL/Obj/...` og så vælge sin STL/Obj/... fil.
 
 Filen er nu importeret og man kan da ændre på størrelsen af printet og orientering ved hjælp af værktøjerne i venstre side.  
+
 ![](Billeder/01.png)
 
 Her er et par ekssempler på hvordan man ville sikre sig at ens print er i dne rigtige orientation of størrelse. For eksempel, hvis nu ens print er blevet importeret men er i den forkerte orientation kan man enten manuels rotere det, eller bruge "lay on face" funktionen i prusaSlicer hvilket jeg ville anbefale hvis man har een bestemt flad side man gerne vil have sit print til at ligge på.
 Hvis man manuelt roterer kan man enten i højre side skrive rotations værdier ind (hvis man har valgt sit objekt med venstreklik)
+
 ![](Billeder/02.png)
 
 Eller man kan frit rotere ved at bruge "rotation" værktøjet der er en del af værktøjerne i venstre side. Et tip til rotation værktøjet er at hvis man holder sin mus over de guide linjer der vises når man har valgt på hvilken akse man roterer, så kan man "snap" sin rotation til de linjer, ikke noget med at holde Ctlr, Shift, Alt eller lignende.
+
 ![](Billeder/03.png)
 
 Derefter kan man justere størrelsen på sin fil med "scale" værktøjet i samme værktøjsrække som "rotate", eller man kan skrive værdier ind manuelt til højre, igen ligesom med rotate værktøjet, nu bruger man blot felterne ud fra "Size:"
@@ -50,7 +53,7 @@ Derefter kan man justere størrelsen på sin fil med "scale" værktøjet i samme
 
 Når filen har de rigtige dimensioner og er lagt korrekt ned på printpladen **med den største flade side nedad for et stabilt print** skal man gøre klar til at "slice" sin fil. Kort sagt er det en konvertering af filen til en type som printeren kan forstå, der gør brug af alle de instillinger man har instillet i ens "slicer" f.eks. PrusaSlicer. Den ene halvdel af at gøre klar til at slice er allerede overstået (den del hvor man orienterer og skalerer sit print) den anden del er hvor man siger hvordan printeren skal printe med hensyn til hvilket fillament der gøres brug af, hvilken detaljegrad man vil printe i, og indstillinger som hvilken temperatur printpladen skal være og hvilken temperatur dyssen som fiallamentet smeltes igennem skal have. Det kan lyde overvældende, men heldigvis kan man komme virkeligt langt med presets og at læse hvad der står på siden af ens printmateriale rulle. I sin simpleste form er der kun 3 indstillinger man skal indstille.
 
-![](Billeder/10)
+![](Billeder/10.png)
 
 1. Det kan være en god idé at starte fra bunden i de indstillinger PrusaSlicer har i højre side før man slicer. Start derfor med at vælge hvilken maskine der gøres brug af. I denne guide tages der udgangspunkt i Prusa printerne "Original Prusa i3 MK3S & MK3S +".
 
@@ -60,17 +63,17 @@ Når filen har de rigtige dimensioner og er lagt korrekt ned på printpladen **m
 
 3. Print settings. Her vælger man hvilket overordnet preset man vil gøre brug af (en god default er at bruge 0.15mm QUALITY). Det kan anbefales at slice ens fil i et par forskellige af dem for at se neders til højre i programmet hvor lang tid hvert af dem vil tage at printe og hvor meget fillament det vil bruge. For eksempel, med print settings (de der set til højre i programmet, ikke fane menuen der forvirrende også hedder print settings) sat til 0.10mm DETAIL, tager dette print af skak bonden 1 time og 59 min, og bruger 6.62 gram fillament. Med en indstilling sat til 0.20mm SPEED tager printet "kun" 1 time og bruger 6.34 gram fillament. For at se tid og gram klikker man blot "slice now" i bunden af programmet og så kan det ses lige over knappen. 
 
-![](Billeder/08)
+![](Billeder/08.png)
 
-Du undre dig måske over hvordan det samme print printet hurtigere eller langsommere kan bruge mindre eller mere fillament, hvilket jo ikke rigtigt giver mening hvis det er det samme print. Det kommer af at indfyldningen inden i brikken ændres i forskellige presets, hvis man vil se dette selv kan man trække i den bar der vises på næste billede for at se et snit af ens print.
+Du undrer dig måske over hvordan det samme print printet hurtigere eller langsommere kan bruge mindre eller mere fillament, hvilket jo ikke rigtigt giver mening hvis det er det samme print. Det kommer af at indfyldningen inden i brikken ændres i forskellige presets, hvis man vil se dette selv kan man trække i den bar der vises på næste billede for at se et snit af ens print.
 
-![](Billeder/09)
+![](Billeder/09.png)
 
 Når disse 3 indstillinger er sat rigtigt med et default program der passer til ens behov er man klar til at slice sin fil en sidste gang og eksportere den som g-code til et SD kort. Dette gøres ved at trykke på "export G-code knappen" der hvor slice knappen var før.
 
-Man kan nu sætte sit SD kort med ens fil ind i prusa 3d printeren og begynde sit print. Hvis man ikke har brugt en prusa printer før så navigeres menuerne med det sorte hjul der kan roteres og trykkes ind for at vælge.
+Man kan nu sætte sit SD kort med ens fil ind i prusa 3d printeren og begynde sit print. Hvis man ikke har brugt en prusa printer før så navigeres menuerne med det sorte hjul der kan roteres og trykkes ind for at vælge. Generelt klikker man først på hjulet, det åbner en menu. I den menu vælger man "print from SD" og så vælger man den fil man har gemt på SD kortet.
 
-Held og lykke!
+####Held og lykke!
 
 
 ## Optionelle tricks til bedre print
