@@ -28,7 +28,7 @@ Når man bruger Lab'ets Ultimaker 3 så kræver det at man har føglende:
  5. Et [link til DD Labs webshop](http://ddlab.au.dk/webshop) til betaling af materiale.
 
 ## Hvis man ikke vil lave sin egen fil.
-Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), som er en delingside for makere, hvor downloade gratis 3D-modeller af alt fra skakbrikker til skelettet til droner.
+Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), som er en delingside for makere, hvor man kan downloade gratis 3D-modeller af alt fra skakbrikker til droneskeletter.
 
 I dette eksempel vil jeg tage udgangspunkt i en [Skak Bonde](https://www.thingiverse.com/thing:4901226/files) fra sættet "Hexagon Chess Set".
 
