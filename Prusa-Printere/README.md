@@ -73,7 +73,7 @@ Når disse 3 indstillinger er sat rigtigt med et default program der passer til 
 
 Man kan nu sætte sit SD kort med ens fil ind i prusa 3d printeren og begynde sit print. Hvis man ikke har brugt en prusa printer før så navigeres menuerne med det sorte hjul der kan roteres og trykkes ind for at vælge. Generelt klikker man først på hjulet, det åbner en menu. I den menu vælger man "print from SD" og så vælger man den fil man har gemt på SD kortet.
 
-####Held og lykke!
+**Held og lykke!**
 
 
 ## Optionelle tricks til bedre print
