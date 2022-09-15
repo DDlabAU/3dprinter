@@ -101,7 +101,7 @@ Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller
 
 ### Fjern færdigt print
 For at undgå at bøje sit print anbefaler vi at lade printet og glaspladen køle ned inden man fjerner det fra platformen. Hvis printet har en stor kontaktflade med printerens seng, så kan man fremskynde processen ved at tage glasset og lægge det i køleskabet.   
-For at få fat under printet og vippe det af, kan man bruge en [jimmy](https://www.ifixit.com/Store/Tools/Jimmy/IF145-259-1). Her skal man dog være meget forsigtet, så glaspladen ikke ridses.
+For at få fat under printet og vippe det af, kan man bruge en [jimmy](https://www.ifixit.com/Store/Tools/Jimmy/IF145-259-1). Her skal man dog være meget forsigtig, så glaspladen ikke ridses.
 
 ## Design af egne modeller
 
