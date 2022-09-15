@@ -40,7 +40,11 @@ Filen er importeret og man kan nu ændre på størrelsen på printet og orienter
 Som det kan ses på billedet er filen for lille til at virke på som en dørstopper så derfor skal den skaleres op.  
 ![](Billeder/02.png)
 
-Når filen har de rigtige dimensioner skal den eksporteres til gcode (som printeren kan læse), ved at trykke på "Save to File" i højre bund af programmet. Ved siden af knappen kan man se hvor langt tid printet tager samt printets vægt som skal bruges til betalling i DD Lab's webshop.  
+### Materiale & extruder  
+I højre top kan man vælge hvilken "extruder" printeren skal bruge samt hvilket materiale der er tale om. Det er VIGTIGT at man vælger det rigtige materiale og det anbefales derfor altid at kigge på materialerullen der hænger bag på printeren. På siden af rullen sidder der et klistermærke der har navnet på materialet. Det yderligere er muligt at vælge begge extruders i samme print hvis man skal bruge forskellige materialer i ét print, men det tager VÆSENTLIG længere tid samt der er større sandsynlighed for fejl-print.
+![](Billeder/04.png)
+
+Når filen har de rigtige dimensioner skal den eksporteres til gcode (som printeren kan læse), ved at trykke på "Slice" i højre bund af programmet. Efter man har sliced sin fil kan man over knappen se hvor langt tid printet tager samt printets vægt som skal bruges til betalling i DD Lab's webshop. Filen eksporteres da til et USB A stik og printet startes.
 ![](Billeder/03.png)
 
 ![](Billeder/07.jpg)
@@ -48,19 +52,14 @@ Når filen har de rigtige dimensioner skal den eksporteres til gcode (som printe
 ![](Billeder/08.jpg)
 
 ## Tricks til bedre print
-### Materiale & extruder  
-I højre top kan man vælge hvilken "extruder" printeren skal bruge samt hvilket materiale der er tale om. Det er muligt at vælge begge extruders i samme print, men det tager VÆSENTLIG længere tid samt der er større sandsynlighed for fejl-print.  
-![](Billeder/04.png)
 
 ### Print Setup  
-Under indstillinger for for materialer og extruders finder man print setup. Den indstilling der hedder 'recommended' er den der almindeligvis skal bruges, men skal man have lavet noget mere avanceret, så tag fat i en ansat fra lab'et.  
-Infill beskriver hvor meget printeren fylder ind i modellen. Hvis man skal printe noget der kan holde til noget, så kan man med fordel sætte infill procenten op. Eksemplet med dørstopperen sætter forsøger jeg med 50% fyld. Man skal være opmærksom på at dette gøre printetiden længere samt printet dyrere da der bruges mere materiale.  
-![](Billeder/05.png)
+Under indstillinger for materialer og extruders finder man print setup. Den indstilling der hedder 'recommended' er den der almindeligvis skal bruges, men skal man have lavet noget mere avanceret, så tag fat i en ansat fra lab'et.  
+Infill beskriver hvor meget printeren fylder ind i modellen. Hvis man skal printe noget der kan holde til noget, så kan man med fordel sætte infill procenten op. Eksemplet med dørstopperen forsøger jeg med 50% fyld. Man skal være opmærksom på at dette gøre printetiden længere samt printet dyrere da der bruges mere materiale. Det gør dog også printet mere holdbart. Det skal nævned at over 50% begynder man at få mindre styrke i sit print per % infill så med mindre man er interesseret i at ens print er solidt er det sjældent nødvendigt med over 50-70% infill. 
 
 ### Support  
 Support skal sættes til hvis der frithængende elementer på ens model, da printeren ikke kan lægge plastik ovenpå luft. Support kan ses som et stillads som printeren bruger til at printe de frithængende dele af en model.
 Jo mere support der skal bruges jo større er sandsynligheden for fejl-print, men der bruges også væsentlig mere materiale. Derfor anbefales det at man roterer sin model så der skal bruges så lidt support som muligt.  
-![](Billeder/06.png)
 
 ### Print core
 På Ultimaker 3 Extended sidder der en printcore på 0,8mm. Denne printcore tilader at man kan øge layer hight og dermed kan printe færre lag hvilket gør printet hurtigere. Da lagene kan printes tykkere vil de også blive mere tydelige og kvaliteten bliver ikke så høj. Dvs. at den printer med bredere og højere linjer.
