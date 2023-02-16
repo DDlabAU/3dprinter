@@ -99,6 +99,16 @@ Skrue tube af            |  Skrue tube på igen
 
 Hvis man syntes man hiver til men fillamentet stadigt sidder fast bør man tage fat i en ansat *Så står man ikke til ansvar når fillamentet knækker i printeren og man skal skille den ad ;)*
 
+## Brug af filter til usunde materialer
+
+*For PLA, som er vores oftest brugte fillament til diverse print der ikke kræver specielle fillamenter, er filteret ikke nødvendigt.*
+
+Nogle materialer er ikke sunde at indånde f.eks. PETG, ABS og der er det vigtigt at man tænder for filteret inde i enclosuret mens printet køre. Dette gøres ved en knap på forsiden af enclosuret lige til venstre for displayet. Se:
+
+Filter slukket             |  Filter tændt
+:-------------------------:|:-------------------------:
+<img src="Billeder/filterOf" width="180" height="300"/>  |  <img src="Billeder/filterOn" width="180" height="300"/>
+
 **Held og lykke!**
 
 
