@@ -107,7 +107,7 @@ Nogle materialer er ikke sunde at indånde f.eks. PETG, ABS og der er det vigtig
 
 Filter slukket             |  Filter tændt
 :-------------------------:|:-------------------------:
-<img src="Billeder/filterOf" width="180" height="300"/>  |  <img src="Billeder/filterOn" width="180" height="300"/>
+<img src="Billeder/filterOff" width="180" height="300"/>  |  <img src="Billeder/filterOn" width="180" height="300"/>
 
 **Held og lykke!**
 
