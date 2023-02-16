@@ -78,11 +78,13 @@ Man kan nu sætte sit SD kort med ens fil ind i prusa 3d printeren og begynde si
 For at load fillament skal printeren selvfølgeligt først ikke have noget fillament i sig, hvis den har fillament i sig gå til *Unload Fillament*.
 Man starter derefter med at sætte ens fillament rulle fast på fillament rulle holderen inde i printeren enclosuret. Holderen sidder øverst til højre. For nogle ruller med mindre indre diameter skal holderen først skrues af og føres igennem rullen før man kan skrue den på igen med fillament rullen på sig. Sørg når man gør dette for at rulle sidder fast i en fornuftig "retning" som set på billedet: ![](Billeder/11.jpg)
 Dette gøres for at fillamentet ikke bøjer unødvendigt.
-![](Billeder/removeHolder.gif)
+
+![](Billeder/removeHolder.gif | height = 200)
 
 Nu føres fillamentet stille og roligt, *det skal ikke tage meget tryk*, igennem tuben *indgang til tuben ses på billede* ![](Billeder/12.jpg). Når fillamentet når printhovedet trykkes det lidt ned i hovedet, det kan godt tage et lille tryk nogle gange, og fillamentet er nu i printeren, men det er *ikke* loaded endnu.
 For at load fillament skal man først tænde printeren bagpå, derefter navigere man menuen *der skal som oftest først tykkes på knappen for at åbne den*. I hovedmenuen findes "Load Fillament". Man vælger den type af fillament der passer til ens behov, og printeren vil nu varme op og derefter prøve at loade fillamentet. Printren vil efter kort tid spørge om fillamentet bliver "extruded" med den rigtige farve. Hvis det gør, er fillamntet nu loadet.
 Hvis det ikke gør, så vælg nej (*no*) og prøv at trykke fillamentet igennem bowden tuben lidt mere imens printeren prøver at fange det. Hvis printren stadigt ikke kan få fat i fillamentet, kan bowden tuben skrues af hvor den sidder fast på printhovedet, så kan man lidt nemmere føre fillamentet ned i printeren. Se:
+
 ![](Billeder/screwOf.gif)
 
 Kan man stadigt ikke få printeren til at gribe fillamentet bør man tage fat i en ansat. 
@@ -93,7 +95,7 @@ Gør man dette skal man selvføgligt huske at skrue den på igen bagefter.
 
 Skrue tube af            |  Skrue tube på igen
 :-------------------------:|:-------------------------:
-![](Billeder/screwOn.gif)  |  ![](Billeder/screwOf.gif)
+![](Billeder/screwOf.gif)  |  ![](Billeder/screwOn.gif)
 
 Hvis man syntes man hiver til men fillamentet stadigt sidder fast bør man tage fat i en ansat *Så står man ikke til ansvar når fillamentet knækker i printeren og man skal skille den ad ;)*
 
