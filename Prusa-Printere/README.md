@@ -73,8 +73,8 @@ Når disse 3 indstillinger er sat rigtigt med et default program der passer til 
 
 Man kan nu sætte sit SD kort med ens fil ind i prusa 3d printeren og begynde sit print. Hvis man ikke har brugt en prusa printer før så navigeres menuerne med det sorte hjul der kan roteres og trykkes ind for at vælge. Generelt klikker man først på hjulet, det åbner en menu. I den menu vælger man "print from SD" og så vælger man den fil man har gemt på SD kortet.
 
-##Hvis man skal skifte fillament
-#Load fillament
+## Hvis man skal skifte fillament
+### Load fillament
 For at load fillament skal printeren selvfølgeligt først ikke have noget fillament i sig, hvis den har fillament i sig gå til *Unload Fillament*.
 Man starter derefter med at sætte ens fillament rulle fast på fillament rulle holderen inde i printeren enclosuret. Holderen sidder øverst til højre. For nogle ruller med mindre indre diameter skal holderen først skrues af og føres igennem rullen før man kan skrue den på igen med fillament rullen på sig. Sørg når man gør dette for at rulle sidder fast i en fornuftig "retning" som set på billedet: ![](Billeder/11.jpg)
 Dette gøres for at fillamentet ikke bøjer unødvendigt.
@@ -89,7 +89,7 @@ Hvis det ikke gør, så vælg nej (*no*) og prøv at trykke fillamentet igennem 
 
 Kan man stadigt ikke få printeren til at gribe fillamentet bør man tage fat i en ansat. 
 
-#Unload fillament
+### Unload fillament
 For at unload fillament tændes printeren, derefter vælger man i hovedmenuen, som navigeres med det sorte hjul foran på printeren, "unload fillament". Printren vil spørge hvilken type fillament man unloader og man vælger bare den der passer til det fillament der sidder i printeren. Er man i tvivl bør det stå på siden af fillamentrullen. Når indstillingen er valgt, varmer printeren på og når den er varm lyder der et *højt* bib. Dette bib betyder tag fat i fillamentet og hiv det roligt men jævnt ud af printeren, dette kan godt tage lidt flere kræfter nogle gange end man har lyst til hvis spidsen af fillamentet er smeltet til en ligge klump der er svær at få ud, men ikke så mange man bliver nervøs. Igen kan man som når man loader fillament nyde godt af at skrue bowden tuben af der hvor den sidder fast på printhovedet for nemmere at kunne hive i fillamentet.
 Gør man dette skal man selvføgligt huske at skrue den på igen bagefter.
 
