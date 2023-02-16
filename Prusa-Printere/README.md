@@ -11,9 +11,12 @@ permalink: /Prusa-Printere/
 - [Før du printer](#før-du-printer)
 - [Hvis man ikke vil lave sin egen fil](#hvis-man-ikke-vil-lave-sin-egen-fil)
 - [Gør fil klar til print i PrusaSlicer](#g%C3%B8r-fil-klar-til-print-i-prusaslicer)
+- [Hvis man skal skifte fillament](#hvis-man-skal-skifte-fillament)
+  - [Load fillament](load-fillament)
+  - [Unload fillament](unload-fillament)
+- [Brug af filter til usunde materialer](brug-af-filter-til-usunde-materialer)
 - [Optionelle tricks til bedre print](#optionelle-tricks-til-bedre-print)
 - [Materiale](#materiale)
-  - [Skift materiale:](#skift-materiale)
   - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
 - [Design af egne modeller](#design-af-egne-modeller)
   - [Valg af program](#valg-af-program)
@@ -142,9 +145,6 @@ Under print kan der opstå en del warping så det kan være sværere at bruge en
 
 **PVA:**
 PVA er en form for vandopløseligt plastik. Det er godt at bruge til at lave mere avancerede prints, da det kan bruges til at printe supports.
-
-### Skift Materiale
-Der sidder en NFC-chip (Near Field Communication chip) i flere af lab'ets ruller med 3D-printer plast. Fordelen ved at bruge dem er at man ikke manuelt skal intaste hvilket materiale man bruger. Dog er det ikke svært at skrive ind manuelt og rullerne uden NFC er billigere. Derfor vil vi gerne opfordre til at man bruger de billige til test print og tidlige prototyper. Hvis man vil have skiftet fillamentet i printeren kan man med fordel spørge en af de ansatte i DD lab.
 
 ### Fjern færdigt print
 For at undgå at bøje sit print anbefaler vi at lade printet og printpladen køle, så løsner ens print sig selv en del fra pladen og kan nemt tages af. Prusa printernes plader er yderligere let bøgelige og kan løfte der hvor der er fingerprint markeringer i den side af pladen der vender mod en selv, prøv at lade være med at efterlade for mange fingeraftryk og fedt på pladen af dette gør den sværre at printe på. Printen kan dog tages af og bøges let for at løsne et print der sidder på pladen.
