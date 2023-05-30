@@ -8,7 +8,7 @@ permalink: /Form3-Printer/
 
 ![Form 3](Billeder/Form3.png)
 
-**For at benytte resin-printeren i labbet skal du have kørekort hertil.** Dette opnåes ved at gennemføre DD Lab's resin print workshop. Kontakt DD Lab for at arrangere en sådan workshop, enten ved at gå til en DD Lab medarbejder i labbets åbningstid, skrive til os på [facebook](https://www.facebook.com/AUDDLab) eller skrive en e-mail til os på [ddlabau@gmail.com](mailto:ddlabau@gmail.com).
+**For at benytte resin-printeren i labbet skal du have kørekort hertil.** Dette opnåes ved at gennemføre DD Lab's resin print workshop. Kontakt DD Lab for at arrangere en sådan workshop, enten ved at gå til en DD Lab medarbejder i lab'ets åbningstid eller skrive en e-mail til os på [ddlabau@gmail.com](mailto:ddlabau@gmail.com).
 
 Denne guide vil gå i dybden med processen fra klargøring af din 3D model til færdigt print. **Vi anbefaler at du ser denne 5 minutter's video** inden du læser guiden, for bedre at forstå hvad der refereres til:
 
