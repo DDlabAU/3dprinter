@@ -11,23 +11,23 @@ permalink: /Prusa-Printere/
 - [Før du printer](#før-du-printer)
 - [Hvis man ikke vil lave sin egen fil](#hvis-man-ikke-vil-lave-sin-egen-fil)
 - [Gør fil klar til print i PrusaSlicer](#g%C3%B8r-fil-klar-til-print-i-prusaslicer)
-- [Hvis man skal skifte fillament](#hvis-man-skal-skifte-fillament)
-  - [Load fillament](#load-fillament)
-  - [Unload fillament](#unload-fillament)
+- [Hvis man skal skifte filament](#hvis-man-skal-skifte-filament)
+  - [Load filament](#load-filament)
+  - [Unload filament](#unload-filament)
 - [Brug af filter til usunde materialer](#brug-af-filter-til-usunde-materialer)
-- [Optionelle tricks til bedre print](#optionelle-tricks-til-bedre-print)
+- [Optionelle tricks til bedre print](#ekstra-tricks-til-bedre-print)
 - [Materiale](#materiale)
   - [Fjerne færdigt print:](#fjerne-f%C3%A6rdigt-print)
 - [Design af egne modeller](#design-af-egne-modeller)
   - [Valg af program](#valg-af-program)
 
 ## Før du printer
-Når man bruger Lab'ets Prusa i3 MK3 så kræver det at man har føglende:
+Når man bruger Lab'ets Prusa i3 MK3S+ eller Prusa Mini+ printere så kræver det at man har føglende:
 
  1. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
  2. En 3D-fil af filtypen STL eller OBJ.
  3. En computer med [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/) installeret.
- 4. Et SD Kort - der bør sidde et kort i prusa printerne lige til venstre for displayet.
+ 4. Et SD Kort (hvis man bruer de store MK3S+ printere eller en USB-stick hvis man bruger en MINI+ printer - der bør sidde et kort i MK3S+ pritnerne lige til venstre for displayet og et USB-stick på højre side af MINI+ printerne lige ved tænd/sluk knappen.
  5. Et [link til DD Labs webshop](http://ddlab.au.dk/webshop) til betaling af materiale.
 
 ## Hvis man ikke vil lave sin egen fil
@@ -38,84 +38,102 @@ I dette eksempel vil jeg tage udgangspunkt i en [Skak Bonde](https://www.thingiv
 ## Gør fil klar til print i PrusaSlicer
 Næste trin er at åbne sin 3D-fil i PrusaSlicer. Dette kan gøres ved at trykke på `File` ➝ `Import` ➝ `Import STL/Obj/...` og så vælge sin STL/Obj/... fil.
 
-Filen er nu importeret og man kan da ændre på størrelsen af printet og orientering ved hjælp af værktøjerne i venstre side.  
+Filen er nu importeret og man kan da ændre på størrelsen af printet og orientering ved hjælp af værktøjerne i venstre side. Hvis du ikke kan se din fil kan det ske du skal skifte til "3D editor view" ved at trykke på kassen i nederste venstre hjørne)
 
 ![](Billeder/01.png)
 
-Her er et par ekssempler på hvordan man ville sikre sig at ens print er i dne rigtige orientation of størrelse. For eksempel, hvis nu ens print er blevet importeret men er i den forkerte orientation kan man enten manuels rotere det, eller bruge "lay on face" funktionen i prusaSlicer hvilket jeg ville anbefale hvis man har een bestemt flad side man gerne vil have sit print til at ligge på.
-Hvis man manuelt roterer kan man enten i højre side skrive rotations værdier ind (hvis man har valgt sit objekt med venstreklik)
+Her er et par ekssempler på hvordan man ville sikre sig at ens print er i den rigtige orientation og størrelse. For eksempel, hvis nu ens print er blevet importeret men vender forkert kan man enten roterer det, eller bruge "place on face" funktionen i prusaSlicer. place on face er god hvis man har en bestemt flad side man gerne vil have sit print til at ligge på.
+Hvis man manuelt roterer kan man enten i højre side skrive rotations værdier ind (hvis man har valgt sit objekt med venstreklik) eller trække i de håndtag der dukker om om ens model når man vælger "Rotate"-værktøjet.
 
 ![](Billeder/02.png)
 
-Eller man kan frit rotere ved at bruge "rotation" værktøjet der er en del af værktøjerne i venstre side. Et tip til rotation værktøjet er at hvis man holder sin mus over de guide linjer der vises når man har valgt på hvilken akse man roterer, så kan man "snap" sin rotation til de linjer, ikke noget med at holde Ctlr, Shift, Alt eller lignende.
-
 ![](Billeder/03.png)
+
+Et tip til rotationsværktøjet er at hvis man holder sin mus over de guide linjer (markeret med rød) der vises når man har valgt på hvilken akse man roterer, kan man rotere i præcise intervaller af 45˚.
 
 Derefter kan man justere størrelsen på sin fil med "scale" værktøjet i samme værktøjsrække som "rotate", eller man kan skrive værdier ind manuelt til højre, igen ligesom med rotate værktøjet, nu bruger man blot felterne ud fra "Size:"
 ![](Billeder/07.png)
 
-Når filen har de rigtige dimensioner og er lagt korrekt ned på printpladen **med den største flade side nedad for et stabilt print** skal man gøre klar til at "slice" sin fil. Kort sagt er det en konvertering af filen til en type som printeren kan forstå, der gør brug af alle de instillinger man har instillet i ens "slicer" f.eks. PrusaSlicer. Den ene halvdel af at gøre klar til at slice er allerede overstået (den del hvor man orienterer og skalerer sit print) den anden del er hvor man siger hvordan printeren skal printe med hensyn til hvilket fillament der gøres brug af, hvilken detaljegrad man vil printe i, og indstillinger som hvilken temperatur printpladen skal være og hvilken temperatur dyssen som fiallamentet smeltes igennem skal have. Det kan lyde overvældende, men heldigvis kan man komme virkeligt langt med presets og at læse hvad der står på siden af ens printmateriale rulle. I sin simpleste form er der kun 3 indstillinger man skal indstille.
+Når filen har de rigtige dimensioner og er lagt korrekt ned på printpladen **med den største flade side nedad for et stabilt print** skal man gøre klar til at "slice" sin fil. Her oversætter PrusaSlicer ens model til et instruktioner om hvordan printeren skal bevæge sig på baggrund af alle de instillinger man bruger i ens "slicer" f.eks. PrusaSlicer. 
+
+Nu har man mulighed for at justere de indstillinger vi gerne vil have sliceren bruger til at printe vores model. Det er nu vi indstiller hvilket filament (materiale) der gøres brug af, hvilken detaljegrad man vil printe i, og andre indstillinger temperatur for printpladen og dyssen som fiallamentet smeltes igennem skal have. Det kan lyde overvældende, men heldigvis kan man komme virkeligt langt med de indstillinger PrusaSlicer bruger som default for den type filament man bruger så **husk læs hvad der står på siden af den rulle filament i bruger**. Grundlæggende er der kun 3 indstillinger man skal indstille:
 
 ![](Billeder/10.png)
 
-1. Det kan være en god idé at starte fra bunden i de indstillinger PrusaSlicer har i højre side før man slicer. Start derfor med at vælge hvilken maskine der gøres brug af. I denne guide tages der udgangspunkt i Prusa printerne "Original Prusa i3 MK3S & MK3S +".
+1. Det kan være en god idé at starte fra bunden af de tre indstillinger PrusaSlicer har i højre side før man slicer. Start derfor med at vælge hvilken printer der gøres brug af. I denne guide tages der udgangspunkt i Prusa printerne "Original Prusa i3 MK3S & MK3S +", men benytter man en "Prusa Mini+" printer skal man ændre "Printer"-indstillingen til "Original Prusa MINI & MINI+". 
+(hvis den type printer man vil bruge ikke dukker op er det fordi man ikke har tilføjet den printer i løbet af konfigurationen da man første gang åbnede PrusaSlicer. Man kan tilføje en ny printer ved at køre "configuration assistant" igen i prusa slicer.)
 
-2. Derefter vælger man det fillament man vil bruge, det har man forhåbentligt gjort sig nogle tanker om på forhånd, ellers er der yderligere information om de forskellige fillamenter DD lab har længere nede i tips og tricks sektionen. Til de fleste 3d print print kan og bør man bruge generisk PLA. Det kan også være en god idé at dobbelt tjekke de preset værdier der følger med en fillament type. De kan ses på siden af fillamentrullen over printeren. Hold specielt øje med at diameteren er rigtig, og at de forskellige print temperature er sat korrekt i overenstemmelse med de anbefalinger der står på rullen.
+2. Derefter vælger man det filament (materiale) man vil printe i, det er en god ide at kigge på hvilke muligheder der er men PLA er ofte et godt sted at starte, ellers er der yderligere information om de forskellige filamenter DD lab har længere nede i tips og tricks sektionen. Printer man f.eks. i PLA vælger man "Generic PLA" som sin "Filament"-indstilling. Det kan også være en god idé at klikke på tandhjulet ud for ens filament-indstilling og dobbelttjekke PrusaSlicers default værdier og sammenligne dem med de anbefaligner der står på filamentrullen. Hold specielt øje med at diameteren er rigtig (Prusa printere kan **KUN** printe med 1.75mm filament), og at de forskellige temperature er sat korrekt i overenstemmelse med de anbefalinger der står på rullen.
 
 ![](Billeder/06.jpg) ![](Billeder/05.png)
 
-3. Print settings. Her vælger man hvilket overordnet preset man vil gøre brug af (en god default er at bruge 0.15mm QUALITY). Det kan anbefales at slice ens fil i et par forskellige af dem for at se neders til højre i programmet hvor lang tid hvert af dem vil tage at printe og hvor meget fillament det vil bruge. For eksempel, med print settings (de der set til højre i programmet, ikke fane menuen der forvirrende også hedder print settings) sat til 0.10mm DETAIL, tager dette print af skak bonden 1 time og 59 min, og bruger 6.62 gram fillament. Med en indstilling sat til 0.20mm SPEED tager printet "kun" 1 time og bruger 6.34 gram fillament. For at se tid og gram klikker man blot "slice now" i bunden af programmet og så kan det ses lige over knappen. 
+3. Print settings. Her vælger man hvilket overordnet preset man vil gøre brug af (en god default er at bruge 0.20mm QUALITY). Det kan anbefales at slice ens fil i et par forskellige af dem for at se nederst til højre i vinduet (under "Sliced info") hvor lang tid det tager at printe og hvor meget filament der bliver brugt med de forskellige presets. For eksempel: hvis man vælger "0.10mm DETAIL" som ens Print setting, tager dette print af skakbonden 1 time og 59 min, og bruger 6.62 gram filament. Med en indstilling sat til 0.20mm SPEED tager printet "kun" 1 time og bruger 6.34 gram filament. For at se tid og gram klikker man blot "slice now" i bunden af programmet efter at have ændret indstillinger og så kan det ses lige over knappen under "Sliced info". 
 
 ![](Billeder/08.png)
 
-Du undrer dig måske over hvordan det samme print printet hurtigere eller langsommere kan bruge mindre eller mere fillament, hvilket jo ikke rigtigt giver mening hvis det er det samme print. Det kommer af at indfyldningen "infill" inden i printet ændres i forskellige presets, hvis man vil se dette selv kan man trække i den bar der vises på næste billede for at se et snit af ens print.
+Du undrer dig måske over hvordan det samme print printet hurtigere ellerlangsommere kan bruge mindre eller mere filament. Det er blandt andet fordi, indfyldningen "infill" inden i printet ændres i forskellige presets, hvis man vil se dette selv kan man trække i den bar der vises på næste billede for at se et tværsnitsnit af ens print.
 
 ![](Billeder/09.png)
 
-Når disse 3 indstillinger er sat rigtigt med et default program der passer til ens behov er man klar til at slice sin fil en sidste gang og eksportere den som g-code til et SD kort. Dette gøres ved at trykke på "export G-code knappen" der hvor slice knappen var før.
+Når disse 3 indstillinger er sat rigtigt, er man klar til at slice sin fil en sidste gang og eksportere den som g-code til et SD-kort (eller USB stik hvis man printer på en MINI+). Dette gøres ved sætte SD kort eller USB-stick (alt efter hvilken pritner man bruger) i sin computer og trykke på "export G-code knappen" der hvor "slice" knappen var før. Sørg for at den fil der bliver genereret hedder noget i kan genkende, og overfør den til SD-kortet eller USB-sticken.
 
-Man kan nu sætte sit SD kort med ens fil ind i prusa 3d printeren og begynde sit print. Hvis man ikke har brugt en prusa printer før så navigeres menuerne med det sorte hjul der kan roteres og trykkes ind for at vælge. Generelt klikker man først på hjulet, det åbner en menu. I den menu vælger man "print from SD" og så vælger man den fil man har gemt på SD kortet.
+Vi er nu næsten klar til at printe, men før man kan sætte printeren igang skal man lige sikre sig at alt er som det skal være:
 
-## Hvis man skal skifte fillament
-### Load fillament
-For at load fillament skal printeren selvfølgeligt først ikke have noget fillament i sig, hvis den har fillament i sig gå til *Unload Fillament*.
-Man starter derefter med at sætte ens fillament rulle fast på fillament rulle holderen inde i printeren enclosuret. Holderen sidder øverst til højre. For nogle ruller med mindre indre diameter skal holderen først skrues af og føres igennem rullen før man kan skrue den på igen med fillament rullen på sig. Sørg når man gør dette for at rulle sidder fast i en fornuftig "retning" som set på billedet: ![](Billeder/11.jpg)
-Dette gøres for at fillamentet ikke bøjer unødvendigt.
+1. At det filament der er i printeren svarer til det filament man justerede sine indstillinger ud fra i sliceren. (hvis ikke [skal man skifte filament](#hvis-man-skal-skifte-filament) 
+2. At den stålplade plade der sidder på printeren er den rigtige for det materiale man printer med. Man bruger den glatte og grønlige "Smooth" til PLA og den lidt texturerede "Satin" til PETG og ASA f.eks. 
+  1. Hvis man skifter plade skal man vælge den tilsvarende "Sheet profile" på MK3S+ printerens skærm. På MINI+ printerne anbefales det ikke at skifte plade uden hjælp fra en ansat da det kræver at man indstiller printerens Z-offset manuelt og man kan beskadige printeren hvis man gør det forkert.
+3. At pladen er ren. Put en lille smule isopropyl-alkohol (IPA) på noget køkkenrulle agtigt papir (der er en stor rulle ovre ved resin-printeren) og tør pladen af med det.
+
+Man kan nu sætte sit SD-kort (eller USB-stick) med ens fil ind i printeren og begynde sit print. Hvis man ikke har brugt en prusa printer før så navigeres menuerne med det sorte hjul der kan roteres for at bevæge sig i menuen og trykkes på for at vælge menupunkter. Hvis ikke ens fil dukker op når man sætter kortet i printeren kan man klikke på hjulet for at gå til hovedmenuen og her gå til "print from SD" som bringer en liste over alle filer på SD-kortet op så vælger man den fil man gerne vil printe. Printeren går så igang med at varme op, calibrere og printe ens fil. MINI+ pritnernes menuer er lidt anderledes men det er samme overordnede funktionalitet.
+
+## Hvis man skal skifte filament
+### Load filament
+For at loade en ny rulle filament skal printeren først ikke have noget filament i sig, hvis den har filament i sig gå til [Unload filament](#Unload_filament).
+
+Start med at tjekke at enden på dit filament ikke er tykkere end resten af rullen, hvis den er det skal du klippe en centimeter eller to af enden, ellers bilver det svært at føre filamentet ind i printeren.
+
+Man starter derefter med at tænde for pritneren (knappen sidder uden på enclosurekassen bagerst til vesntre) og sætte ens filamentrulle fast på filamentrulleholderen inde i printer enclosuret (den kasse printeren står i). Holderen sidder øverst til højre. For nogle ruller med et mindre hul i midten skal holderen først skrues af og føres igennem rullen før man kan skrue den i igen med filament rullen på sig. Sørg for at sikre, at rullen sidder fast i en fornuftig retning så filamentet naturligt bliver trukket fra bunden af spolen og op i filamentindgangen som set på billedet. Dette gøres for at filamentet ikke bøjer unødvendigt: ![](Billeder/11.jpg)
 
 <img src="Billeder/removeHolder.gif" width="180" height="300"/>
 
-Nu føres fillamentet stille og roligt, *det skal ikke tage meget tryk*, igennem tuben *indgang til tuben ses på billede* ![](Billeder/12.jpg). Når fillamentet når printhovedet trykkes det lidt ned i hovedet, det kan godt tage et lille tryk nogle gange, og fillamentet er nu i printeren, men det er *ikke* loaded endnu.
-For at load fillament skal man først tænde printeren bagpå, derefter navigere man menuen *der skal som oftest først tykkes på knappen for at åbne den*. I hovedmenuen findes "Load Fillament". Man vælger den type af fillament der passer til ens behov, og printeren vil nu varme op og derefter prøve at loade fillamentet. Printren vil efter kort tid spørge om fillamentet bliver "extruded" med den rigtige farve. Hvis det gør, er fillamntet nu loadet.
-Hvis det ikke gør, så vælg nej (*no*) og prøv at trykke fillamentet igennem bowden tuben lidt mere imens printeren prøver at fange det. Hvis printren stadigt ikke kan få fat i fillamentet, kan bowden tuben skrues af hvor den sidder fast på printhovedet, så kan man lidt nemmere føre fillamentet ned i printeren. Se:
+Nu føres filamentet, uden at presse for hårdt, igennem filamentindgangen: 
+
+![](Billeder/12.jpg)
+
+Når filamentet når printhovedet mærker du modstand, hvis printeren ikke er varm bliver du bedt om at vælge hvilken type filament du prøver at indsætte. Vælg det rigtgie pateriale på skærmen og vent på at printeren varmer op. Når den bipper skal du tage fat i filamentet og trykke på knappen mens du skubber fat men ikke alt for hårdt på filamentet indtil du kan mærke printhovedet griber fat i filamentet og begynder at trække de igennem sig. Slip filamentet. filamentet er nu i printeren. Hvis printeren *er* varm begynder den bare at hive i filamentet så snart spidsen af filamentet når printhovedet: hjælp bare filamentet på vej indtil printeren selv griber fat og du kan mærke den trækker i filamentet
+
+Printren vil efter kort tid spørge om filamentet bliver "extruded" med den rigtige farve. Hvis det er den rigtige farve plastik der kommer ud, er fillamntet nu loadet. Vælg "Yes" på skærmen.
+Hvis ikke, så vælg nej (*no*) og vent til plastikken der kommer ud er den rigtige farve. du kan eventuelt prøve at hjælpe filamentet igennem bowden tuben lidt mere, hvis du kan mærke på filamentet at printeren ikke trækker i det. Hvis printren stadigt ikke kan få fat i filamentet, kan bowden tuben skrues af hvor den sidder fast på printhovedet, så kan man lidt nemmere skubbe filamentet ned i printeren. Se:
 
 ![](Billeder/screwOf.gif)
 
-Kan man stadigt ikke få printeren til at gribe fillamentet bør man tage fat i en ansat. 
+Kan man stadigt ikke få printeren til at gribe filamentet bør man tage fat i en ansat. 
 
-### Unload fillament
-For at unload fillament tændes printeren, derefter vælger man i hovedmenuen, som navigeres med det sorte hjul foran på printeren, "unload fillament". Printren vil spørge hvilken type fillament man unloader og man vælger bare den der passer til det fillament der sidder i printeren. Er man i tvivl bør det stå på siden af fillamentrullen. Når indstillingen er valgt, varmer printeren på og når den er varm lyder der et *højt* bib. Dette bib betyder tag fat i fillamentet og hiv det roligt men jævnt ud af printeren, dette kan godt tage lidt flere kræfter nogle gange end man har lyst til hvis spidsen af fillamentet er smeltet til en ligge klump der er svær at få ud, men ikke så mange man bliver nervøs. Igen kan man som når man loader fillament nyde godt af at skrue bowden tuben af der hvor den sidder fast på printhovedet for nemmere at kunne hive i fillamentet.
-Gør man dette skal man selvføgligt huske at skrue den på igen bagefter.
+### Unload filament
+For at unload filament tændes printeren, derefter vælger man i hovedmenuen, som navigeres med det sorte hjul foran på printeren, "unload filament". Printren vil spørge hvilken type filament man unloader og man vælger bare den der passer til det filament der sidder i printeren. Er man i tvivl bør det stå på siden af filamentrullen. Når indstillingen er valgt, varmer printeren på og når den er varm lyder der et *højt* bib. Dette bib betyder, at du skal tage fat i filamentet og hive det roligt men jævnt ud af printeren. Igen kan man som når man loader filament nyde godt af at skrue bowden tuben af der hvor den sidder fast på printhovedet for nemmere at kunne hive i filamentet. Gør man dette skal man selvføgligt huske at skrue den på igen bagefter. Sørg for at spidsen af filamentet ikke krydser ind under filamentet på spolen når du tager det ud af printeren, så kommer der nemlig en knude på spolen der kan ødelægge et fremtidigt print. Der er små orange filament clips i kasserne med filament der kan bruges til at holde styr på enden når du pakker spolen ned.
 
 Skrue tube af            |  Skrue tube på igen
 :-------------------------:|:-------------------------:
 ![](Billeder/screwOf.gif)  |  ![](Billeder/screwOn.gif)
 
-Hvis man syntes man hiver til men fillamentet stadigt sidder fast bør man tage fat i en ansat *Så står man ikke til ansvar når fillamentet knækker i printeren og man skal skille den ad ;)*
+Hvis man syntes man hiver til men filamentet stadigt sidder fast bør man tage fat i en ansat *Så står man ikke til ansvar når filamentet knækker i printeren og man skal skille den ad ;)*
 
 ## Brug af filter til usunde materialer
 
-*For PLA, som er vores oftest brugte fillament til diverse print der ikke kræver specielle fillamenter, er filteret ikke nødvendigt.*
+*For PLA, som er det mest hyppigt brugte materiale, er filteret ikke nødvendigt.*
 
-Nogle materialer er ikke sunde at indånde f.eks. PETG, ABS og der er det vigtigt at man tænder for filteret inde i enclosuret mens printet køre. Dette gøres ved en knap på forsiden af enclosuret lige til venstre for displayet. Se:
+Nogle materialer er ikke sunde at indånde dampene fra f.eks. PETG, ABS og der er det vigtigt at man tænder for filteret inde i enclosuret mens printet køre. Dette gøres ved en knap på forsiden af enclosuret lige til venstre for displayet. Se:
 
 Filter slukket             |  Filter tændt
 :-------------------------:|:-------------------------:
 <img src="Billeder/filterOff.jpg" width="180" height="300"/>  |  <img src="Billeder/filterOn.jpg" width="180" height="300"/>
 
+Da MINI+ printerne ikke har et enclosure bør man ikke Printe ABS og andre usunde materialer på dem.
+
 **Held og lykke!**
 
 
-## Optionelle tricks til bedre print
+## Ekstra tricks til bedre print
 
 ### Print Settings
 Under kan man indstille forskellige andre indstillingere end de førhennævnte. En af de vigtigste er "Infill". Infill beskriver hvor meget printeren fylder ind i indersiden modellen. Hvis man skal printe noget der kan holde til noget, så kan man med fordel sætte infill procenten op. Eksemplet med skakbrikken forsøger jeg med 15% fyld. Man skal være opmærksom på at dette gør printetiden længere samt printet dyrere hvis man øger indfill da der bruges mere materiale. Høj infill er den største forøgelse af pris og tid man kan gøre sig i, men kan nogle gange være nødvendigt. Meget sjældent er der brug for værdier over 50%, men det kommer kraftigt an på ens print, det anbefales at starte rimeligt lavt (35% og mindre) hvis man ikke skal ligge et kraftigt tryk på ens print. Skal man dog ligge et stærks tryk på ens print f.eks. hvis man printer tandhjul med små tænder, dørstoppere osv, kan man med fordel øge sit infill til 50% og op. Det skal siges at der er "diminishing returns" jo højere man går. Et 100% infill er som oftest ikke meget stærkere end et 70%, men et 50% er langt stærkere end et 20%.
