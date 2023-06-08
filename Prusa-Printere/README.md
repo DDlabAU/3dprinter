@@ -71,7 +71,7 @@ Nu har man mulighed for at justere de indstillinger vi gerne vil have sliceren b
 
 ![](Billeder/08.png)
 
-Du undrer dig måske over hvordan det samme print printet hurtigere ellerlangsommere kan bruge mindre eller mere filament. Det er blandt andet fordi, indfyldningen "infill" inden i printet ændres i forskellige presets, hvis man vil se dette selv kan man trække i den bar der vises på næste billede for at se et tværsnitsnit af ens print.
+Du undrer dig måske over hvordan det samme print printet hurtigere eller langsommere kan bruge mindre eller mere filament. Det er blandt andet fordi, indfyldningen "infill" inden i printet ændres i forskellige presets, hvis man vil se dette selv kan man trække i den bar der vises på næste billede for at se et tværsnitsnit af ens print.
 
 ![](Billeder/09.png)
 
