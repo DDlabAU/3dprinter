@@ -71,7 +71,10 @@ Efter du har downloaded PreForm skal du sætte printeren op med følgende indsti
 Forbered dit print til at blive printet, ved at følge [PreForm guiden her](https://support.formlabs.com/s/article/PreForm?language=en_US).
 
 **Tips til support settings**
-  - Vælg *Mini rafts*, det sparer på resin
+  - Vælg mellem *Mini rafts* og *full raft*
+           - Mini raft bruger mindre resin, men er sværer at få af printerpladen
+           - Full raft bruger mere resin, men er nemmere at få af build plate
+
   - *Touchpoint size* kan ændres til 0.30 da større supportpinde giver et "udslæt" på printet, så vælg support, der er så lille som muligt for at mindske "udslættet".
   - *Density* er hvor tæt supportpindene placeres. dette kan som regel sættes ned til 0.90 medmindre du har med store prints at gøre
   - *Advanced settings*: Afstand over build platformen kan sættes ned til 2 mm for at spare på resin
