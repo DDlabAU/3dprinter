@@ -72,15 +72,17 @@ Forbered dit print til at blive printet, ved at følge [PreForm guiden her](http
 
 **Tips til support settings**
   - Vælg mellem *Mini rafts* og *full raft*
-           - Mini raft bruger mindre resin, men er sværer at få af printerpladen
-           - Full raft bruger mere resin, men er nemmere at få af build plate
-![Mini raft](Billeder/mini-raft-resin.png) ![Full raft](Billeder/full-raft-resin.png) 
+    - Mini raft bruger mindre resin, men er sværer at få af printerpladen.
+    -  Full raft bruger mere resin, men er nemmere at få af build plate.
+ 
+![Mini raft](Billeder/Mini-raft-resin.png) ![Full raft](Billeder/full-raft-resin.png) 
   - *Touchpoint size* kan ændres til 0.30 da større supportpinde giver et "udslæt" på printet, så vælg support, der er så lille som muligt for at mindske "udslættet".
   - *Density* er hvor tæt supportpindene placeres. dette kan som regel sættes ned til 0.90 medmindre du har med store prints at gøre
   - *Advanced settings*: Afstand over build platformen kan sættes ned til 2 mm for at spare på resin
 ![Supportsettings](Billeder/Supportsettings2.png)
 - Print ikke modellen direkte på build platformen!
-  - *Advanced editing supports*: Det er muligt manuelt at sætte og slette support punkter under support --> edit. Venstreklik sætter et support punkt og højreklik fjerner.
+- *Advanced editing supports*: Det er muligt manuelt at sætte og slette support punkter under support --> edit. Venstreklik sætter et support punkt og højreklik fjerner. Se videon herunder for at se et eksempel.
+
   [![Manual edit supports](Billeder/Manual-supports.webp)](https://s3.amazonaws.com/servicecloudassets.formlabs.com/media/Software/Using%20PreForm/115000018144-What%20Supports%20Do/supports-manual-add-preform-3-1.mp4)
 
 
@@ -179,8 +181,8 @@ Du må gerne forlade labbet mens dit print renses, en vær venligst tilbage inde
 - Brug igen drejeknappen til at vælge "Sleep", hvorefter Form Wash lukkes
 - Hvis printet ikke allerede er afmonteret fra build platformen skal det gøres nu. Brug evt. build platform mounten samt en spatel (findes på siden af Form Wash) til at stabilisere afmonteringen af printet fra build platformen. Vær forsigtig, da printet stadig er skrøbeligt.
 - *Robust vs. skrøbeligt*: 
-       - *Robust*: Det er nemmere at fjerne supportmaterialet nu frem for efter printet har curet. 
-       - *Skrøbeligt*: Hvis dit print har meget tynde dele anbefales det at vente med at fjerne support til efter cure, da printet stadig er skrøbeligt. Printet bliver mere           stabilt efter cure
+  - *Robust*: Det er nemmere at fjerne supportmaterialet nu frem for efter printet har curet.
+  - *Skrøbeligt*: Hvis dit print har meget tynde dele anbefales det at vente med at fjerne support til efter cure, da printet stadig er skrøbeligt. Printet bliver mere       stabilt efter cure.
 - Rens build platformen med isopropylalkohol fra sprøjteflasken med alkohol på bordet, og aftør build platformen med mikrofiberkluden på bordet.
 - Åben printeren og sæt build platformen tilbage i printeren.
 - Luk låget til printeren og sæt stofposen tilbage over printeren.
