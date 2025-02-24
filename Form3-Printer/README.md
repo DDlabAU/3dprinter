@@ -194,7 +194,7 @@ Du må gerne forlade labbet mens dit print renses, en vær venligst tilbage inde
 
 ### SIKKERHED
 
-Væsken i Form wash er isopropylalkohol. Denne væske er brandfarlig og sundhedsskadelig hvis det rører huden eller damene fra det indåndes. Derudover er der resin-rester i væsken i maskinen. **Låget til Form Wash bør derfor IKKE åbnes unødvendigt!**
+Væsken i Form wash er isopropylalkohol. Denne væske er brandfarlig og sundhedsskadelig hvis det rører huden eller dampene fra det indåndes. Derudover er der resin-rester i væsken i maskinen. **Låget til Form Wash bør derfor IKKE åbnes unødvendigt!**
 
 Derfor bør du være iført handsker når du sætter prints i og tager prints ud af Form Wash.
 
@@ -213,7 +213,7 @@ Hvis du spilder isopropylalkohol bør det tøres op med et papirhåndklæde. Bru
 - Drej på knappen for at vælge den korrekte tid og temperatur til resinen du har brugt. Anbefalede cure-tidsrum for resiner tilgængelige i labbet kan findes [her](#wash-og-cure-tidsrum-og-temperaturer-for-resin-i-labbet).
 
 ### Efter curing af printet
-Printet kan er nu færdigt og kan røres uden at iføre sig handsker. Vær opmærksom på at printet kan være varmt lidt tid efter det er færdigt i Form Cure.
+Printet er nu færdigt og kan røres uden at iføre sig handsker. Vær opmærksom på at printet kan være varmt lidt tid efter det er færdigt i Form Cure.
 
 Hvis du ikke fjernede supportmaterialet tidligere kan du gøre det nu. Hvis udslættet på printet er slemt kan du evt. bruge sandpapir til at slibe overfladen en smule (Sandpapir findes i grovlabbet).
 
