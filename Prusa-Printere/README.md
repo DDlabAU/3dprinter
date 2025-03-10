@@ -1,12 +1,8 @@
----
-theme: jekyll-theme-minimal
-title: "Guide til Prusa filamentprintere"
-permalink: /Prusa-Printere/
----
+
+# Guide til Prusa filamentprintere
 
 ![3DPrintImage](Billeder/printer.jpg)
 
-# 3D printer
 ## Indhold
 - [Før du printer](#før-du-printer)
 - [Hvis man ikke vil lave sin egen fil](#hvis-man-ikke-vil-lave-sin-egen-fil)
@@ -22,72 +18,82 @@ permalink: /Prusa-Printere/
   - [Valg af program](#valg-af-program)
 
 ## Før du printer
-Når man bruger Lab'ets Prusa i3 MK3S+, Prusa Mini+ eller Prusa MK4 printere, så kræver det at man har føglende:
+Når du bruger lab'ets Prusa Mini+, MK4, eller MK4S printere, så kræver det at du har føglende:
 
- 1. At man har fået undervisning i 3D printerne, eller har snakket med en ansat i lab'et
- 2. At man har en 3D-model af filtypen STL eller OBJ.
+ 1. At du har fået undervisning i 3D printerne, eller har snakket med en ansat i lab'et
+ 2. At du har en 3D-model af filtypen STL eller OBJ.
  3. En computer med [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/) installeret.
- 4. Et SD kort til i3 MK3S+ printerne eller et USB-stik til Mini+ samt MK4 printerne (disse sidder allerede i printerne).
+ 4. Et USB-stik som du kan gemme din fil på (disse sidder allerede i printerne).
  5. Et [link til DD Labs webshop](http://ddlab.au.dk/webshop) til betaling af materiale.
 
 ## Hvis man ikke vil lave sin egen fil
-Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), som er en delingside for 3D-print entusiaster, hvor man kan downloade andres 3D-modeller gratis.
+Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), hvor man kan downloade 3D-modeller gratis.
 
-I dette eksempel tages der udgangspunkt i en [Skak Bonde](https://www.thingiverse.com/thing:4901226/files) fra sættet "Hexagon Chess Set".
+I dette eksempel tages der udgangspunkt i en [Skak Bonde](https://www.thingiverse.com/thing:4901226/files) fra sættet *Hexagon Chess Set*.
 
-## Gør fil klar til print i PrusaSlicer
+## Gør din fil klar til print i PrusaSlicer
 Næste trin er at importere 3D-modelen til PrusaSlicer. Dette kan gøres ved at trykke på `File` ➝ `Import` ➝ `Import STL/OBJ/...`, hvorefter du vælger din fil.
 
 Du kan herefter ændre på størrelsen af printet samt dens orientering ved hjælp af værktøjerne i bjælken til venstre. 
-> Hvis du ikke kan se din fil, kan det ske, at du skal skifte til "3D editor view" ved at trykke på kassen i nederste venstre hjørne
+> Hvis du ikke kan se din fil, kan det ske, at du skal skifte til *"3D editor view"* ved at trykke på kassen i nederste venstre hjørne
 
 ![](Billeder/01.png)
 
 Her er et par eksempler på, hvordan man kan sikre sig at ens print har den rigtige orientering og størrelse. 
 
-- Hvis dit print vender forkert kan du enten bruge "Rotate" eller "Place on Face" funktionenerne i venstre bjælke til at vende det korrekt. 
-> "Place on Face" funktionen er især nyttig, hvis man gerne vil at printet skal ligge på en bestemt side.
+Hvis dit print vender forkert kan du enten bruge **"Rotate"** eller **"Place on Face"** funktionenerne i venstre bjælke til at vende det korrekt. 
+> *Place on Face* funktionen er især nyttig, hvis man gerne vil at printet skal ligge på en bestemt side.
 
 
-- Du kan også roterer din model manuelt ved at skrive værdierne ind i tabellen til højre.
+Du kan også roterer din model manuelt ved at skrive værdierne ind i tabellen til højre.
 
 ![](Billeder/03.png)
 ![](Billeder/02.png)
 
-- Hvis du vil ændre modellens størrelse, kan du bruge "Scale" værtøjet til venstre eller manuelt skrive værdierne ind i tabellen til højre. 
+Hvis du vil ændre modellens størrelse, kan du bruge **"Scale"** værtøjet til venstre eller manuelt skrive værdierne ind i tabellen til højre. 
 
 ![](Billeder/07.png)
 
 
-Når du har klaret ovenstående, skal du herefter justere hvilke instillinger, du gerne vil printe med.
+## Vælg de rigtige instillinger
 
-Du skal her vælge følgende:
-- Hvilken printer du ønsker at bruge (i3 MK3S+, Mini+ eller MK4)
-- Filamenttypen (PLA, PETG, ASA, FLEX TPU) 
-- Detaljegraden af printet (tykkelsen på filament tråden målt i mm).
+Når du har klaret ovenstående, skal du herefter vælge hvilke instillinger, du gerne vil printe med. *Du skal her vælge følgende:*
 
-I denne guide tages der udgangspunkt i Prusa printerne "Original Prusa i3 MK3S & MK3S +", men du er velkommen til at benytte en af lab'et andre printere. 
+**1. Hvilken printer du ønsker at bruge (Mini+, MK4 eller MK4S)**
+  - Hvis du ikke kan finde den ønskede printer i drop-down menuen, kan du tilføje en ny printer ved at klikke på `Add/Remove printers` og køre PrusaSlicerens Configuration Wizard. Her skan du under `Prusa Research` vælge hvilke printere du ønsker at tilføje. 
 
-![](Billeder/10.png)
+  ![](Billeder/10.png)
+
+  >OBS: Denne guide tager  udgangspunkt i Prusa printeren *"Original Prusa i3 MK3S & MK3S +"*, som ikke længere findes i lab'et. 
+
+**2. Filamenttypen (PLA, PETG, ASA, FLEX TPU)**
 
 
-Hvis du ikke kan finde den ønskede printer i drop-down menuen, kan du tilføje en ny printer ved at klikke på `Add/Remove printers` og køre PrusaSlicerens Configuration Wizard. Her skan du under `Prusa Research` vælge hvilke printere du ønsker at tilføje. 
+  - Derefter skal du vælge hvilket filament du gerne vil printe med, så hvis du for eksempel gerne vil printe i PLA bør du vælge *Prusament PLA* eller *Generic PLA* afhængig af fabrikanten. Det er dog en god idé at undersøge, hvilke filamenttyper lab'et har på forhånd inden du vælger dette. 
 
-Derefter skal du vælge hvilket filament (materiale) du gerne vil printe med, så hvis du for eksempel ønsker at printe i PLA bør du vælge "Prusa PLA" eller "Generic PLA" afhængig af fabrikanten. Det er dog en god idé at undersøge, hvilke filamenttyper lab'et har på forhånd inden du vælger dette. 
 
->*PLA* er ofte et godt sted at starte, men hvis du ønsker at printe med et andet materiale kan du finde yderligere information om de forskellige filamenttyper længere nede i tips og tricks sektionen. 
 
- Det kan også være en god idé at klikke på tandhjulet ud for filament-indstillingen og sammenligne PrusaSlicers default værdier med de de anbefaligner der står på filamentrullen. Hold specielt øje med at diameteren på filament tråden samt de forskellige temperature er korrekte i overenstemmelse med de anbefalinger der står på rullen.
+  >*PLA* er ofte et godt sted at starte, men hvis du ønsker at printe med et andet materiale kan du finde yderligere information om de forskellige filamenttyper længere nede i tips og tricks sektionen. 
 
-![](Billeder/06.jpg) ![](Billeder/05.png)
+  - Det kan også være en god idé at klikke på tandhjulet ud for filament-indstillingen og sammenligne PrusaSlicers default værdier med de de anbefaligner der står på filamentrullen. Hold specielt øje med at diameteren på filament tråden samt de forskellige temperature er korrekte i overenstemmelse med de anbefalinger der står på rullen.
 
-3. Print settings. Her vælger man hvilket overordnet preset man vil gøre brug af (en god default er at bruge 0.20mm QUALITY). Det kan anbefales at slice ens fil i et par forskellige af dem for at se nederst til højre i vinduet (under "Sliced info") hvor lang tid det tager at printe og hvor meget filament der bliver brugt med de forskellige presets. For eksempel: hvis man vælger "0.10mm DETAIL" som ens Print setting, tager dette print af skakbonden 1 time og 59 min, og bruger 6.62 gram filament. Med en indstilling sat til 0.20mm SPEED tager printet "kun" 1 time og bruger 6.34 gram filament. For at se tid og gram klikker man blot "slice now" i bunden af programmet efter at have ændret indstillinger og så kan det ses lige over knappen under "Sliced info". 
+    ![](Billeder/06.jpg) ![](Billeder/05.png)
 
-Udover disse kan du i øverste bjælke justere indstillingerne for printpladen, print-indstillinger, filament, og selve printeren. Herunder finder du instillinger såsom temperatur, infill, support-materiale, ventilation m.m., som kan være nyttigt at ændre afhængig af dit print. 
+
+**3. Print settings (tykkelsen på filamenttråden målt i mm).**
+- Her skal du vælge hvor tyk en filamenttråd du vil printe med (en god default er at bruge 0.20mm QUALITY). Du kan med fordel slice din fil med forskellige print settings for at se, hvor lang tid din model tager at printe samt hvor meget filament der bliver brugt ved de forskellige presets. 
+
+- For at se tid og gram klikker man blot **"slice now"** i bunden af programmet efter at have ændret indstillinger og så kan det ses lige over knappen under "Sliced info". 
+
+>For eksempel, hvis du  vælger *"0.10mm DETAIL"* tager dette print af skakbonden 1 time og 59 min, og bruger 6.62 gram filament, hvorimod *"0.20mm SPEED"* kun tager 1 time og bruger 6.34 gram filament. 
+
+### Andre instillinger
+
+- Udover disse kan du i øverste bjælke justere indstillingerne for printpladen, print-indstillinger, filament, og selve printeren. Herunder finder du instillinger såsom temperatur, infill, support-materiale, ventilation m.m., som kan være nyttigt at ændre afhængig af dit print. 
 
 Dette kan lyde overvældende, men heldigvis kan man komme virkeligt langt med PrusaSlicerens default instillinger. 
 
-![](Billeder/08.png)
+
 
 Du undrer dig måske over hvordan det samme print printet hurtigere eller langsommere kan bruge mindre eller mere filament. Det er blandt andet fordi, indfyldningen "infill" inden i printet ændres i forskellige presets, hvis man vil se dette selv kan man trække i den bar der vises på næste billede for at se et tværsnitsnit af ens print.
 
