@@ -6,7 +6,8 @@ permalink: /Ultimaker-Printere/
 
 ![3DPrintImage](Billeder/3DPrint.png)
 
-# Ultimaker 3D-filamentprintere
+# Ultimaker 3D-filamentprintere (ikke i brug)
+
 ## Indhold
 - [Før du printer](#før-du-printer)
 - [Find fil på Thingiverse](#find-fil-p%C3%A5-thingiverse)
@@ -21,14 +22,15 @@ permalink: /Ultimaker-Printere/
 ## Før du printer
 Når man bruger Lab'ets Ultimaker 3 så kræver det at man har følgende:
 
-0. Hvis det er første gang, skal man have snakket med en ansat i Lab'et
- 1. En 3D-fil af filtypen STL eller OBJ.
- 2. En computer med [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software) installeret.
- 3. USB-pen.
- 4. Et [link til DD Labs webshop](http://ddlab.au.dk/webshop) til betaling af materiale.
+1. Hvis det er første gang, skal man have snakket med en ansat i Lab'et 
+
+2. En 3D-fil af filtypen STL eller OBJ.
+3. En computer med [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software) installeret.
+4. USB-pen.
+5. Et [link til DD Labs webshop](http://ddlab.au.dk/webshop) til betaling af materiale.
 
 ## Find fil på Thingiverse
-Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), som er en delingside for makere, hvor downloade gratis 3D-modeller af alt fra skakbrikker til skelettet til droner.
+Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [Thingiverse](https://www.thingiverse.com/), som er en delingside for skabere, hvor man kan downloade gratis 3D-modeller af alt fra skakbrikker til droner.
 
 I dette eksempel vil jeg tage udgangspunkt i en [dørstopper](https://www.thingiverse.com/thing:2642527).
 
@@ -37,7 +39,7 @@ Næste trin er at åbne sin 3D-fil i Cura. Dette kan gøres ved at trykke på `F
 
 Filen er importeret og man kan nu ændre på størrelsen på printet og orientering ved hjælp af værktøjerne i venstre side.  
 ![](Billeder/01.png)
-Som det kan ses på billedet er filen for lille til at virke på som en dørstopper så derfor skal den skaleres op.  
+Som det kan ses på billedet, er filen for lille til at fungere som en dørstopper, så derfor skal den skaleres op.  
 ![](Billeder/02.png)
 
 ### Materiale & extruder  
