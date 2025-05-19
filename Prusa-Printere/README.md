@@ -107,9 +107,7 @@ Udover disse kan du i øverste bjælke justere indstillingerne for printpladen, 
 
 >*Dette kan lyde overvældende, men heldigvis kan man komme virkeligt langt med PrusaSlicerens default instillinger*
 
-Du undrer dig måske over, hvorfor det samme print kan bruge mere eller mindre filament, alt efter hvor hurtigt det bliver printet. Det skyldes blandt andet, at fyldet inde i printet, bedre kendt som ``infill``, ændrer sig afhængigt af den valgte preset.
-
-Du kan ændre filens infill over i højre bjælke.
+Du undrer dig måske over, hvorfor det samme print kan bruge mere eller mindre filament, alt efter hvor hurtigt det bliver printet. Det skyldes blandt andet, at fyldet inde i printet, bedre kendt som ``infill``, ændrer sig afhængigt af den valgte preset. Du kan ændre mængden af infill over i højre bjælke, som vist på billedet
 
 ![](Billeder/infill.png)
 
@@ -117,11 +115,11 @@ Du kan ændre filens infill over i højre bjælke.
 
   >*Hvis du gerne vil se, hvor solid din model bliver baseret på den valgte infill, kan du trække i baren til højre for at se et tværsnitsnit af dit print.*
 
-
-
-Når din model har de rigtige dimensioner og er placeret korrekt på printpladen (*med den største flade nedad for et stabilt print*) kan du herefter slice sin fil ved at klikke på `slice now` i bunden af højre bjælke.
+Når din model har de rigtige dimensioner og er placeret korrekt på printpladen (*med den største flade nedad for et stabilt print*) kan du herefter slice din fil ved at klikke på `slice now` i bunden af højre bjælke.
 
 > *Slice transformerer modellen til binære kode, som kan læses af printeren, hvorefter den ved, hvordan printet skal konstrueres.* 
+
+---
 
 Når disse 3 indstillinger er sat rigtigt, er man klar til at slice sin fil en sidste gang og eksportere den som g-code til et SD-kort (eller USB stik hvis man printer på en MINI+). Dette gøres ved sætte SD kort eller USB-stick (alt efter hvilken pritner man bruger) i sin computer og trykke på "export G-code knappen" der hvor "slice" knappen var før. Sørg for at den fil der bliver genereret hedder noget i kan genkende, og overfør den til SD-kortet eller USB-sticken.
 
