@@ -9,15 +9,14 @@
 * [Før du printer](#før-du-printer)
 * [Hvis du ikke vil lave din egen fil](#hvis-du-ikke-vil-lave-din-egen-fil)
 * [Klargøring af fil i PrusaSlicer](#klargøring-af-fil-i-prusaslicer)
-* [Skift af filament](#skift-af-filament)
-
+* [Før du starter print](#før-du-starter-dit-print)
   * [Indsæt filament](#indsæt-filament)
+* [Efter dit print er færdigt](#efter-dit-print-er-færdigt)
   * [Fjern filament](#fjern-filament)
+  * [Fjern dit færdige print](#fjern-dit-færdige-print)
 * [Brug af filter til usunde materialer](#brug-af-filter-til-usunde-materialer)
 * [Tips og tricks til bedre print](#tips-og-tricks-til-bedre-print)
 * [Materialer](#materialer)
-
-  * [Fjern dit færdige print](#fjern-dit-færdige-print)
 * [Design af egne modeller](#design-af-egne-modeller)
 
   * [Valg af software](#valg-af-software)
@@ -124,7 +123,10 @@ Når du har valgt de indstillinger, som du vil printe med, skal du slice din fil
 Du eksporterer filen ved at tilslutte USB-stikket til din computer, klikke på ``Export G-code`` og gemme filen på USB-stikket. Sørg for at navngive filen korrekt i forhold til vores anvisninger: Dit ***AU-ID*** + ***hvor mange gram dit print vejer.***
 
 ---
-## Indsæt filament
+
+## Før du starter print
+
+### Indsæt filament
 
 1. Find det filament du gerne vil printe med i en af kasserne under 3D-printerne.
 2. Pak filamentet ud og klip herefter spidsen af filamenttråden på skrå, så printeren nemmere kan gribe fat om tråden. 
@@ -144,11 +146,6 @@ Du eksporterer filen ved at tilslutte USB-stikket til din computer, klikke på `
     -  Hvis farven er korrekt vælg ``YES``. 
     - Hvis ikke vælg ``NO`` og lad printeren extrude lidt mere.
 
-
----
-
-## Før du starter print
-
 Du er nu næsten klar til at printe, men inden du starter printet, skal du dobbelttjekke:
 
 1. At det filament, der sidder i printeren, svarer til det filament, du har valgt i indstillingerne i PrusaSlicer. *Hvis ikke [skal du skifte filament](#hvis-man-skal-skifte-filament)*
@@ -160,6 +157,8 @@ Du er nu næsten klar til at printe, men inden du starter printet, skal du dobbe
 Sæt derefter USB-stikket tilbage i printeren, og start dit print. Hvis din fil ikke dukker op, når du sætter USB-stikket i printeren, skal du trykke på ``Print`` under hovedmenuen. Her kan du finde alle filerne på USB-stikket. Brug det sorte hjul til at scrolle gennem listen, indtil du finder din fil, og klik derefter på hjulet for at vælge den. Printeren vil nu begynde at varme op og kalibrere, hvorefter printet starter.
 
 ---
+
+## Efter dit print er færdigt
 
 ### Fjern filament
 
