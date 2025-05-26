@@ -94,7 +94,7 @@ Det kan også være en god idé at klikke på tandhjulet ud for filament-indstil
 
 **3. Print settings (tykkelsen på filamenttråden målt i mm).**
 
-Her skal du vælge hvor tyk en filamenttråd du vil printe med (en god default er at bruge 0.20mm QUALITY). Du kan med fordel slice din fil med forskellige print settings for at se, hvor lang tid din model tager at printe samt hvor meget filament der bliver brugt ved de forskellige presets. 
+Her skal du vælge hvor tyk en filamenttråd du vil printe med *(en god default er at bruge 0.20mm QUALITY)*. Du kan med fordel slice din fil med forskellige print settings for at se, hvor lang tid din model tager at printe samt hvor meget filament der bliver brugt ved de forskellige presets. 
 
 For se hvor lang tid dit print tager,  samt hvor mange gram filament du bruger, skal du klikke på `slice now` i bunden af højre bjælke.
 
@@ -107,7 +107,7 @@ Udover disse kan du i øverste bjælke justere indstillingerne for printpladen, 
 
 >*Dette kan lyde overvældende, men heldigvis kan man komme virkeligt langt med PrusaSlicerens default instillinger*
 
-Du undrer dig måske over, hvorfor det samme print kan bruge mere eller mindre filament, alt efter hvor hurtigt det bliver printet. Det skyldes blandt andet, at fyldet inde i printet, bedre kendt som ``infill``, ændrer sig afhængigt af den valgte preset. Du kan ændre mængden af infill over i højre bjælke, som vist på billedet
+Du undrer dig måske over, hvorfor det samme print kan bruge mere eller mindre filament, alt efter hvor hurtigt det bliver printet. Det skyldes blandt andet, at fyldet inde i printet, bedre kendt som ``infill``, ændrer sig afhængigt af hvilken indstilling du vælger. Du kan ændre mængden af infill over i højre bjælke, som vist på billedet
 
 ![](Billeder/infill.png)
 
@@ -117,65 +117,47 @@ Du undrer dig måske over, hvorfor det samme print kan bruge mere eller mindre f
 
 Når din model har de rigtige dimensioner og er placeret korrekt på printpladen (*med den største flade nedad for et stabilt print*) kan du herefter slice din fil ved at klikke på `slice now` i bunden af højre bjælke.
 
-> *Slice transformerer modellen til binære kode, som kan læses af printeren, hvorefter den ved, hvordan printet skal konstrueres.* 
-
 ---
 
-Når disse 3 indstillinger er sat rigtigt, er man klar til at slice sin fil en sidste gang og eksportere den som g-code til et SD-kort (eller USB stik hvis man printer på en MINI+). Dette gøres ved sætte SD kort eller USB-stick (alt efter hvilken pritner man bruger) i sin computer og trykke på "export G-code knappen" der hvor "slice" knappen var før. Sørg for at den fil der bliver genereret hedder noget i kan genkende, og overfør den til SD-kortet eller USB-sticken.
+Når du har valgt de indstillinger, som du vil printe med, skal du slice din fil en sidste gang og derefter eksportere den som G-code til printerens USB-stik (der sidder et USB-stik i hver printer).
+
+Du eksporterer filen ved at tilslutte USB-stikket til din computer, klikke på ``Export G-code`` og gemme filen på USB-stikket. Sørg for at navngive filen korrekt i forhold til vores anvisninger: Dit ***AU-ID*** + ***hvor mange gram dit print vejer.***
+
+---
+## Indsæt filament
+
+1. Find det filament du gerne vil printe med i en af kasserne under 3D-printerne.
+2. Pak filamentet ud og klip herefter spidsen af filamenttråden på skrå, så printeren nemmere kan gribe fat om tråden. 
+3. Tænd printeren, tryk på ``Filament`` under hovedmenuen og vælg herefter den type filament, du printer med. 
+4. Placer filamentrullen korrekt i printeren og så tråden vender ud mod dig selv. 
+
+    ![](Billeder/11.jpg) 
+
+5. Før herefter tråden igennem det lille hul i printerens enclosure indtil du møder modstand.
+
+    ![](Billeder/12.jpg)
+
+6. Tryk herefter på ``CONTINUE``. Hvis ikke printeren griber ordentlig fat i filamentet, skal du fører tråden længere ind.
 
 
-Vi er nu næsten klar til at printe, men før man kan sætte printeren igang skal man lige sikre sig at alt er som det skal være:
+7. Bekræft herefter om filamentet har den rigtige farve, når det kommer ud af printeren. 
+    -  Hvis farven er korrekt vælg ``YES``. 
+    - Hvis ikke vælg ``NO`` og lad printeren extrude lidt mere.
 
-1. At det filament der er i printeren svarer til det filament man justerede sine indstillinger ud fra i sliceren. (hvis ikke [skal man skifte filament](#hvis-man-skal-skifte-filament))
-2. At den stålplade der sidder på printeren er den rigtige for det materiale man printer med. Man bruger den glatte og grønlige "Smooth" til PLA og den lidt texturerede "Satin" til PETG og ASA f.eks. 
-  1. Hvis man skifter plade skal man vælge den tilsvarende "Sheet profile" på MK3S+ printerens skærm. På MINI+ printerne anbefales det ikke at skifte plade uden hjælp fra en ansat da det kræver at man indstiller printerens Z-offset manuelt og man kan beskadige printeren hvis man gør det forkert.
-3. At pladen er ren. Put en lille smule isopropyl-alkohol (IPA) på noget køkkenrulle agtigt papir (der er en stor rulle ovre ved resin-printeren) og tør pladen af med det.
 
-Man kan nu sætte sit SD-kort (eller USB-stick) med ens fil ind i printeren og begynde sit print. Menuerne navigeres med det sorte hjul der kan roteres for at bevæge sig i menuen og trykkes på for at vælge menupunkter. Hvis ikke ens fil dukker op når man sætter kortet i printeren kan man klikke på hjulet for at gå til hovedmenuen og her gå til "print from SD" som bringer en liste over alle filer på SD-kortet frem. Så vælger man den fil man gerne vil printe. Printeren går så igang med at varme op, kalibrere og printe ens fil. MINI+ pritnernes menuer er lidt anderledes men det er samme overordnede funktionalitet.
+---
 
 ## Før du starter print
 
-Tjek følgende:
+Du er nu næsten klar til at printe, men inden du starter printet, skal du dobbelttjekke:
 
-1. **Filamenttype**: Er det samme, som du valgte i sliceren?
-2. **Printplade**:
+1. At det filament, der sidder i printeren, svarer til det filament, du har valgt i indstillingerne i PrusaSlicer. *Hvis ikke [skal du skifte filament](#hvis-man-skal-skifte-filament)*
 
-   * *Smooth (glat, grønlig)* til PLA
-   * *Satin (let tekstureret)* til PETG/ASA
-   * På MK3S+ skal du vælge korrekt *Sheet profile*
-   * På Mini+ bør du få hjælp til at skifte plade (Z-offset skal justeres manuelt)
-3. **Rengøring**:
+2. At den stålplade der sidder på printeren, er den rigtige i forhold til det filament du printer med. Som udgangspunkt printes der altid på satin-pladen, da den kan bruges til de fleste filamenttyper bortset fra TPU, her skal du bruge vores ``textured steel sheet`` i stedet.
 
-   * Brug isopropyl-alkohol (IPA) og køkkenrulle til at rengøre printpladen.
+3. At pladen er ren. Kom en lille smule isopropylalkohol (IPA) på et stykke papir (der står en stor rulle ved resin-printeren), og tør pladen grundigt af.
 
-Sæt herefter dit USB-stik eller SD-kort i printeren og start printet via menuen.
-
----
-
-## Skift af filament
-
-### Indsæt filament
-
-1. Hvis der allerede sidder filament i, [fjern det først](#fjern-filament).
-
-2. Tjek filamentets ende – klip spidsen ren, hvis den er bulet.
-
-3. Tænd printeren og monter filamentrullen korrekt på holderen.
-
-   ![](Billeder/11.jpg) <img src="Billeder/removeHolder.gif" width="180" height="300"/>
-
-4. Før filamentet forsigtigt gennem indgangen til printhovedet.
-
-   ![](Billeder/12.jpg)
-
-5. Følg instruktioner på skærmen (vælg korrekt filamenttype og vent på opvarmning).
-
-6. Når printeren griber fat i filamentet, slip – og bekræft farven.
-
-> Hvis plastikken ikke har korrekt farve, vælg “No” og lad den extrude lidt mere.
-> Hvis den ikke trækker i filamentet, skru evt. bowden-tuben af for at hjælpe det på vej.
-
-![](Billeder/screwOf.gif)
+Sæt derefter USB-stikket tilbage i printeren, og start dit print. Hvis din fil ikke dukker op, når du sætter USB-stikket i printeren, skal du trykke på ``Print`` under hovedmenuen. Her kan du finde alle filerne på USB-stikket. Brug det sorte hjul til at scrolle gennem listen, indtil du finder din fil, og klik derefter på hjulet for at vælge den. Printeren vil nu begynde at varme op og kalibrere, hvorefter printet starter.
 
 ---
 
@@ -184,21 +166,24 @@ Sæt herefter dit USB-stik eller SD-kort i printeren og start printet via menuen
 1. Tænd printeren.
 2. Vælg “Unload filament” i menuen.
 3. Vælg den filamenttype, der sidder i printeren.
-4. Vent på opvarmning → bippet lyder → træk filamentet roligt ud.
+4. Vent på at printeren varmer op (den bipper når den er varm nok), og træk herefter filamentet ud.
+5. Læg filamentet tilbage i den rigtige kasse (se vejledningen i kassenerne for, hvordan du opbevarer filamentet korrekt)
 
-> Skru evt. bowden-tuben af for at få bedre fat. Husk at skrue den på igen bagefter.
+---
 
-![](Billeder/screwOf.gif) | ![](Billeder/screwOn.gif)
+### Fjern dit færdige print
 
-Sørg for, at filamentets ende ikke snor sig ind under rullen – brug de orange filament-clips.
+1. Vent til printpladen er kølet af.
+2. Løft pladen forsigtigt af printeren og undgå at placer dine fingre midt på pladen, da pladen nemt tager imod fugt.
+3. Bøj pladen let, så printet løsner sig.
 
 ---
 
 ## Brug af filter til usunde materialer
 
-> *Ved print med PLA er filteret ikke nødvendigt.*
-
 Hvis du bruger PETG, ASA, ABS eller lignende materialer, skal filteret i enclosure’et være tændt under hele printet.
+
+> *Ved print med PLA er filteret ikke nødvendigt.*
 
 ---
 
@@ -211,14 +196,6 @@ Hvis du bruger PETG, ASA, ABS eller lignende materialer, skal filteret i enclosu
 ## Materialer
 
 Du kan betale for materialer via [DD Labs webshop](http://ddlab.au.dk/webshop). Se prisskiltet ved printeren for korrekte materialetyper og priser.
-
----
-
-### Fjern dit færdige print
-
-1. Vent til printpladen er kølet af.
-2. Løft pladen forsigtigt af printeren.
-3. Bøj pladen let – printet løsner sig.
 
 ---
 
