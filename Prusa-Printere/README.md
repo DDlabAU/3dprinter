@@ -163,7 +163,7 @@ Sæt derefter USB-stikket tilbage i printeren, og start dit print. Hvis din fil 
 ### Fjern filament
 
 1. Tænd printeren.
-2. Vælg “Unload filament” i menuen.
+2. Tryk på ``Filament`` under hovedmenuen og vælg ``Unload filament``.
 3. Vælg den filamenttype, der sidder i printeren.
 4. Vent på at printeren varmer op (den bipper når den er varm nok), og træk herefter filamentet ud.
 5. Læg filamentet tilbage i den rigtige kasse (se vejledningen i kassenerne for, hvordan du opbevarer filamentet korrekt)
