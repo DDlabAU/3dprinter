@@ -37,9 +37,11 @@ Før du bruger lab'ets Prusa Mini+, MK4 eller MK4S, skal du have følgende på p
 
 ## Hvis du ikke vil lave din egen fil
 
-Det kan være vanskeligt og tidskrævende at designe sin egen fil. Heldigvis findes [*Thingiverse*](https://www.thingiverse.com/), hvor man kan downloade 3D-modeller gratis.
+Der findes 3D-model-databaser hvor der er millioner af gratis 3D-modeller, som andre brugere har lavet. Så måske kan du finde det print du overvejede at lave, eller du kan finde modeller som du kan bygge videre på!
 
-I dette eksempel tages der udgangspunkt i en [*Skak Bonde*](https://www.thingiverse.com/thing:4901226/files) fra sættet *Hexagon Chess Set*.
+[*Printables*](https://www.printables.com/)
+
+[*Thingiverse*](https://www.thingiverse.com/)
 
 ---
 
@@ -91,13 +93,13 @@ Det kan også være en god idé at klikke på tandhjulet ud for filament-indstil
 ![](Billeder/06.jpg) ![](Billeder/05.png)
 
 
-**3. Print settings (tykkelsen på filamenttråden målt i mm).**
+**3. Print settings (tykkelsen på lag målt i mm).**
 
-Her skal du vælge hvor tyk en filamenttråd du vil printe med *(en god default er at bruge 0.20mm QUALITY)*. Du kan med fordel slice din fil med forskellige print settings for at se, hvor lang tid din model tager at printe samt hvor meget filament der bliver brugt ved de forskellige presets. 
+Her skal du vælge hvor tykke lag du vil printe med *(en god default er at bruge 0.20mm QUALITY)*. Du kan med fordel slice din fil med forskellige print settings for at se, hvor lang tid din model tager at printe samt hvor meget filament der bliver brugt ved de forskellige presets. 
 
 For se hvor lang tid dit print tager,  samt hvor mange gram filament du bruger, skal du klikke på `slice now` i bunden af højre bjælke.
 
->*Hvis du  vælger *"0.10mm DETAIL"* tager dette print af skakbonden 1 time og 59 min, og bruger 6.62 gram filament, hvorimod *"0.20mm SPEED"* kun tager 1 time og bruger 6.34 gram filament.* 
+>*Hvis du  vælger *"0.10mm DETAIL"* tager dette print af skakbonden 2 timer og bruger 6.62 gram filament, hvorimod *"0.20mm SPEED"* kun tager 1 time og bruger 6.34 gram filament.* 
 ---
 
 ## Andre indstillinger
@@ -186,15 +188,9 @@ Hvis du bruger PETG, ASA, ABS eller lignende materialer, skal filteret i enclosu
 
 ---
 
-## Tips og tricks til bedre print
-
-*(Denne sektion kan uddybes med: temperaturjusteringer, support-materiale, brims/rafts, korrekt Z-offset osv.)*
-
----
-
 ## Materialer
-
-Du kan betale for materialer via [DD Labs webshop](http://ddlab.au.dk/webshop). Se prisskiltet ved printeren for korrekte materialetyper og priser.
+Det koster en smule at 3D printe: 25 kr per 100g, så det er meget billigt!
+Du kan betale for materialer via [DD Labs webshop](http://ddlab.au.dk/webshop). Her indtaster du blot hvor mange gram du har brugt og så betaler du 0.25 kr per gram
 
 ---
 
@@ -205,6 +201,6 @@ Du kan betale for materialer via [DD Labs webshop](http://ddlab.au.dk/webshop). 
 Nogle gode gratis programmer til 3D-modellering:
 
 * [TinkerCAD](https://www.tinkercad.com/) – Let at bruge
-* [Fusion 360](https://www.autodesk.com/products/fusion-360/) – Mere avanceret
+* [Fusion 360](https://www.autodesk.com/products/fusion-360/) – Mere avanceret. (kræver licens, men studerende kan ansøge om det gratis på deres hjemmeside, eller få licens gennem ddlab)
 * [Blender](https://www.blender.org/) – God til organiske former og figurer
 
