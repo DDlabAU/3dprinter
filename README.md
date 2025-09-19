@@ -13,11 +13,11 @@ DD Lab har to forskellige typer af 3D-printere:
 <table>
   <tr>
     <td  width="50%"><a href="/Prusa-Printere/"><img src="Billeder/Prusa_i3_mk3.jpg" alt="Prusa printere"/></a></td>
-    <td><a href="/Ultimaker-Printere/"><img src="Billeder/3DPrint.png" alt="Ultimakerprintere"/></a></td>
+    <td><a href="/bambulab/"><img src="https://3deksperten.dk/cdn/shop/products/bambu-lab-x1-carbon-combo_3Deksperten.webp?v=1677841787" alt="bambulab printer"/></a></td>
   </tr>
   <tr>
   <td> <a href="/Prusa-Printere/">Guide til Prusa printere</a> </td>
-  <td> <a href="/Ultimaker-Printere/">Guide til Ultimaker printere</a>  </td>
+  <td> <a href="/bambulab/">Guide til bambulab printere</a>  </td>
   </tr>
 </table>
 
