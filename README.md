@@ -17,7 +17,7 @@ DD Lab har to forskellige typer af 3D-printere:
   </tr>
   <tr>
   <td> <a href="/Prusa-Printere/">Guide til Prusa printere</a> </td>
-  <td> <a href="/bambulab/">Guide til bambulab printere</a>  </td>
+  <td> <a href="/Bambulab-printer/">Guide til bambulab printere</a>  </td>
   </tr>
 </table>
 
