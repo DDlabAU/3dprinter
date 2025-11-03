@@ -205,6 +205,9 @@ Gode gratis programmer til 3D-modellering:
 
 
 
+<details>
+<summary><strong>Carbon-fiber forstærket filament</strong> (klik for at folde ud)</summary>
+
 ## Carbon-fiber forstærket filament
 
 Carbon-forstærket (CF) filament kan bruges på Bambu X1 Carbon (MÅ IKKE BRUGES PÅ ANDRE PRINTERE!).
@@ -218,9 +221,10 @@ Carbon-forstærket (CF) filament kan bruges på Bambu X1 Carbon (MÅ IKKE BRUGES
 
 #### Klargøring og indlæsning (X1 Carbon)
 1. Fjern AMS-plastikrøret fra bagsiden af maskinen (afkobl forsigtigt).  
-3. Monter PET-CF-rullen på metalholderen på bagsiden.  
-4. Før filamentet ind gennem plastikrøret/indføringskanalen, indtil det når feederen.  
-5. På printeren: vælg "Filament" → "Load/Unload" og følg skærminstruktionerne (vælg EXT-spool hvis påkrævet).  
-6. I Bambu Studio: vælg den tilsvarende filamentprofil.
+2. Monter PET-CF-rullen på metalholderen på bagsiden.  
+3. Før filamentet ind gennem plastikrøret/indføringskanalen, indtil det når feederen.  
+4. På printeren: vælg "Filament" → "Load/Unload" og følg skærminstruktionerne (vælg EXT-spool hvis påkrævet).  
+5. I Bambu Studio: vælg den tilsvarende filamentprofil.
 
+</details>
 
