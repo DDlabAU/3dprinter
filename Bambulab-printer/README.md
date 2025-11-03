@@ -203,3 +203,16 @@ Gode gratis programmer til 3D-modellering:
 * [Fusion 360](https://www.autodesk.com/products/fusion-360/) – Avanceret (gratis for studerende)
 * [Blender](https://www.blender.org/) – God til organiske former og figurer
 
+
+
+## carbon fiber forstærket filament?
+
+Bambu printeren kan printe med kulfiber forstærket filament. Der er delte meninger om hvilke fordele det har, men ud fra denne test, er det primært modstandsdygtighed over for varme og stifthed, mens den faktisk er væsentligt svagere i brudstyrke end PETG: [Test](https://www.youtube.com/watch?v=lfztVplTBQc)
+
+Også vær obs på at det under ingen omstændigheder på bruges til spiselige dele eller dele der skal i meget kontakt med menneskehud, da de mange små fibre det består af, er små nåle der kan drysse af og sætte sig i hud osv, se mere om det her: [sikkerhed](https://www.youtube.com/watch?v=RLt9l6YxvHk&t=347s)
+
+Guide:
+- på bagsiden af maskinen afkobles AMS-plastikrøret fra printeren.
+- Pet-cf rullen sættes på metalholderen på bagsiden og fodres ind gennem plastikrøret.
+- vælg load filament og følg EXT-spool
+- vælg det i bambu-slicer og print
