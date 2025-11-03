@@ -205,14 +205,22 @@ Gode gratis programmer til 3D-modellering:
 
 
 
-## carbon fiber forstærket filament?
+## Carbon-fiber forstærket filament
 
-Bambu printeren kan printe med kulfiber forstærket filament. Der er delte meninger om hvilke fordele det har, men ud fra denne test, er det primært modstandsdygtighed over for varme og stifthed, mens den faktisk er væsentligt svagere i brudstyrke end PETG: [Test](https://www.youtube.com/watch?v=lfztVplTBQc)
+Carbon-forstærket (CF) filament kan bruges på Bambu X1 Carbon (MÅ IKKE BRUGES PÅ ANDRE PRINTERE!).
 
-Også vær obs på at det under ingen omstændigheder på bruges til spiselige dele eller dele der skal i meget kontakt med menneskehud, da de mange små fibre det består af, er små nåle der kan drysse af og sætte sig i hud osv, se mere om det her: [sikkerhed](https://www.youtube.com/watch?v=RLt9l6YxvHk&t=347s)
+#### Fordele / ulemper
+- Fordele: bedre varmebestandighed og øget stivhed.  
+- Ulemper: ofte lavere brudstyrke end PETG; meget abrasivt — slider på almindelige messinglyser/dyser. Se test: https://www.youtube.com/watch?v=lfztVplTBQc
 
-Guide:
-- på bagsiden af maskinen afkobles AMS-plastikrøret fra printeren.
-- Pet-cf rullen sættes på metalholderen på bagsiden og fodres ind gennem plastikrøret.
-- vælg load filament og følg EXT-spool
-- vælg det i bambu-slicer og print
+#### Sikkerhed
+- Må ikke bruges til spiselige emner eller dele med direkte/vedvarende hudkontakt — små kulfiberpartikler kan løsne sig og irritere huden. Se sikkerhed: https://www.youtube.com/watch?v=RLt9l6YxvHk&t=347s
+
+#### Klargøring og indlæsning (X1 Carbon)
+1. Fjern AMS-plastikrøret fra bagsiden af maskinen (afkobl forsigtigt).  
+3. Monter PET-CF-rullen på metalholderen på bagsiden.  
+4. Før filamentet ind gennem plastikrøret/indføringskanalen, indtil det når feederen.  
+5. På printeren: vælg "Filament" → "Load/Unload" og følg skærminstruktionerne (vælg EXT-spool hvis påkrævet).  
+6. I Bambu Studio: vælg den tilsvarende filamentprofil.
+
+
