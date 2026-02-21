@@ -195,9 +195,9 @@ Det koster 25 kr per 100g at 3D-printe. Betal via [DD Labs webshop](http://ddlab
 ---
 ## Build Plates
 
-Brug disse plader kun i bemandingstiden, da det kræver at man har erfaring og avanceret kendskab til Bambu Lab printeren. 
+Vi har 4x 3D effect build plates fra Bambu - **Kun kompatible med vores Bambu X1 Carbon**. 
 
-Vi har 4 3D effect build plates fra Bambu - **Kun kompatible med vores Bambu X1 Carbon**. 
+Brug disse plader kun i bemandingstiden, da det kræver at man har erfaring og avanceret kendskab til Bambu Lab printeren. 
 
 3D-effekten slides gradvist ved brug. For at forlænge levetiden **bør emnerne placeres forskellige steder** på arket.
 
