@@ -195,8 +195,18 @@ Det koster 25 kr per 100g at 3D-printe. Betal via [DD Labs webshop](http://ddlab
 ---
 ## Build Plates
 
-Det koster 25 kr per 100g at 3D-printe. Betal via [DD Labs webshop](http://ddlab.au.dk/webshop) – indtast antal gram og betal 0.25 kr per gram.
+Brug disse plader kun i bemandingstiden, da det kræver at man har erfaring og avanceret kendskab til Bambu Lab printeren. 
+Vi har 4 3D effect build plates fra Bambu - **Kun kompatible med vores Bambu X1 Carbon**. 
+3D-effekten slides gradvist ved brug. For at forlænge levetiden **bør emnerne placeres forskellige steder** på arket.
+**Undgå at påføre lim på buildpladen!**
+Vælg pladetypen _Smooth PEI / High Temp Plate_ i Bambusliceren.
+Overhold de anbefalede heatbed-indstillinger ved brug af Bambu 3D Effect Plate - Temperaturen omkring 60-65º fungerer bedst.
+Anvend kun **PLA og TPU**.
+For bedste resultat skal overfladen være helt ren
+God ide at sætte hastigheden lavere - Vælg enten "silent 50%" eller sæt hastigheden for det første lag 'manuelt' ned til 10 mm/s og infill til 30 mm/s. 
+Slå alle LIDAR funktioner fra (flow calibration, first layer inspection og detection of build plate position)
 
+Mere info på vej. Vi er stadig i gang med at teste og optimere processen. 
 ---
 
 ## Design af egne modeller
