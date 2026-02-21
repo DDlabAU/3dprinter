@@ -16,6 +16,7 @@
 * [Brug af filter til usunde materialer](#brug-af-filter-til-usunde-materialer)
 * [Tips og tricks til bedre print](#tips-og-tricks-til-bedre-print)
 * [Materialer](#materialer)
+* [Build Plates](#build-plates)
 * [Design af egne modeller](#design-af-egne-modeller)
     * [Valg af software](#valg-af-software)
 
@@ -188,6 +189,11 @@ Ved brug af PETG, ABS, ASA eller lignende skal filteret i enclosure’et være t
 ---
 
 ## Materialer
+
+Det koster 25 kr per 100g at 3D-printe. Betal via [DD Labs webshop](http://ddlab.au.dk/webshop) – indtast antal gram og betal 0.25 kr per gram.
+
+---
+## Build Plates
 
 Det koster 25 kr per 100g at 3D-printe. Betal via [DD Labs webshop](http://ddlab.au.dk/webshop) – indtast antal gram og betal 0.25 kr per gram.
 
