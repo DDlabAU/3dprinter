@@ -245,8 +245,6 @@ Gode gratis programmer til 3D-modellering:
 
 
 
-<details>
-<summary><strong>Carbon-fiber forstærket filament</strong> (klik for at folde ud)</summary>
 
 ## Carbon-fiber forstærket filament
 
@@ -266,5 +264,4 @@ Carbon-forstærket (CF) filament kan bruges på Bambu X1 Carbon (MÅ IKKE BRUGES
 4. På printeren: vælg "Filament" → "Load/Unload" og følg skærminstruktionerne (vælg EXT-spool hvis påkrævet).  
 5. I Bambu Studio: vælg den tilsvarende filamentprofil.
 
-</details>
 
