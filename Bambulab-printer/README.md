@@ -213,18 +213,20 @@ Brug disse plader kun i bemandingstiden, da det kræver at man har erfaring og a
 
 > God ide at sætte hastigheden lavere - Vælg enten "silent 50%" eller sæt hastigheden for det første lag 'manuelt' ned til 10 mm/s og infill til 30 mm/s. 
 Ellers kan du også hente vores preset til hastigheden : [link](https://github.com/DDlabAU/3dprinter/blob/master/Process%20presets.zip)
+
+<br>
 <br>
 
-## Øvrige ndstillinger der skal ændres manuelt. 
+## Øvrige indstillinger der skal ændres manuelt. 
 
 ### Tryk på _edit_ for at ændre på filament-indstillingerne. Dette skal gøres ved alle filaments der skal bruges.
-<img src="edit_filament.png" alt="Edit filament" style="width:60%; display:block; margin-left:auto; margin-right:auto;">
+<img src="edit_filament.png" alt="Edit filament" style="width:75%; display:block; margin-left:auto; margin-right:auto;">
 
 ### Find temperaturen for pladen Smooth PEI, sæt dem begge på 65°
-<img src="smoothpei_temp.png" alt="Smooth PEI temperatur" style="width:550%; display:block; margin-left:auto; margin-right:auto;">
+<img src="smoothpei_temp.png" alt="Smooth PEI temperatur" style="width:60%; display:block; margin-left:auto; margin-right:auto;">
 
 ### Skru' tilmed ned for _volumetric speed_ - skal stå på 17.  
-<img src="volumetric_speed.png" alt="Volumetric Speed" style="width:60%; display:block; margin-left:auto; margin-right:auto;">
+<img src="volumetric_speed.png" alt="Volumetric Speed" style="width:75%; display:block; margin-left:auto; margin-right:auto;">
 
 ---
 
