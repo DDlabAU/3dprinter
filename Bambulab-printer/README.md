@@ -224,7 +224,7 @@ Ellers kan du også hente vores preset til hastigheden : [link](https://github.c
 <br><br>
 
 ### Find temperaturen for pladen Smooth PEI, sæt dem begge på 65°
-<img src="smoothpei_temp.png" alt="Smooth PEI temperatur" style="width:60%; display:block; margin-left:auto; margin-right:auto;">
+<img src="smoothpei_temp.png" alt="Smooth PEI temperatur" style="width:75%; display:block; margin-left:auto; margin-right:auto;">
 <br><br>
 
 ### Skru' tilmed ned for _volumetric speed_ - skal stå på 17.  
