@@ -201,22 +201,27 @@ Brug disse plader kun i bemandingstiden, da det kræver at man har erfaring og a
 
 ### Vigtigt
 
-3D-effekten slides gradvist ved brug. For at forlænge levetiden **bør emnerne placeres forskellige steder** på arket.
+3D-effekten slides gradvist ved brug. For at forlænge levetiden **bør emnerne placeres forskellige steder** på arket. For bedste resultat skal overfladen være helt ren.
 
 **Undgå at påføre lim på buildpladen!**
 
-Vælg pladetypen _Smooth PEI / High Temp Plate_ i Bambusliceren.
+> Vælg pladetypen _Smooth PEI / High Temp Plate_ i Bambusliceren.
 
-Anvend kun **PLA og TPU**.
+> Anvend kun **PLA og TPU**.
 
-For bedste resultat skal overfladen være helt ren.
+> **Slå alle LIDAR funktioner fra (flow calibration, first layer inspection og detection of build plate position)**
 
-God ide at sætte hastigheden lavere - Vælg enten "silent 50%" eller sæt hastigheden for det første lag 'manuelt' ned til 10 mm/s og infill til 30 mm/s. 
+> God ide at sætte hastigheden lavere - Vælg enten "silent 50%" eller sæt hastigheden for det første lag 'manuelt' ned til 10 mm/s og infill til 30 mm/s. 
 Ellers kan du også hente vores preset til hastigheden : [link](https://github.com/DDlabAU/3dprinter/blob/master/Process%20presets.zip)
 
-Slå alle LIDAR funktioner fra (flow calibration, first layer inspection og detection of build plate position)
+### Skru' op for temperaturen
+<img src="edit_filament.png" alt="Edit filament" style="width:70%; display:block; margin-left:auto; margin-right:auto;">
 
-Mere info på vej. Vi er stadig i gang med at teste og optimere processen. 
+<img src="smoothpei_temp.png" alt="Smooth PEI temperatur" style="width:40%; display:block; margin-left:auto; margin-right:auto;">
+
+<img src="volumetric_speed.png" alt="Volumetric Speed" style="width:70%; display:block; margin-left:auto; margin-right:auto;">
+
+
 
 ---
 
