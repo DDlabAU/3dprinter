@@ -199,19 +199,20 @@ Vi har 4x 3D effect build plates fra Bambu - **Kun kompatible med vores Bambu X1
 
 Brug disse plader kun i bemandingstiden, da det kræver at man har erfaring og avanceret kendskab til Bambu Lab printeren. 
 
+### Vigtigt
+
 3D-effekten slides gradvist ved brug. For at forlænge levetiden **bør emnerne placeres forskellige steder** på arket.
 
 **Undgå at påføre lim på buildpladen!**
 
 Vælg pladetypen _Smooth PEI / High Temp Plate_ i Bambusliceren.
 
-Overhold de anbefalede heatbed-indstillinger ved brug af Bambu 3D Effect Plate - Temperaturen omkring 60-65º fungerer bedst.
-
 Anvend kun **PLA og TPU**.
 
 For bedste resultat skal overfladen være helt ren.
 
 God ide at sætte hastigheden lavere - Vælg enten "silent 50%" eller sæt hastigheden for det første lag 'manuelt' ned til 10 mm/s og infill til 30 mm/s. 
+Ellers kan du også hente vores preset til hastigheden : [link](https://github.com/DDlabAU/3dprinter/blob/master/Process%20presets.zip)
 
 Slå alle LIDAR funktioner fra (flow calibration, first layer inspection og detection of build plate position)
 
