@@ -217,14 +217,14 @@ Ellers kan du også hente vores preset til hastigheden : [link](https://github.c
 
 ## Øvrige ndstillinger der skal ændres manuelt. 
 
-### Tryk på _edit_ for at ændre på indstillingerne. Dette skal gøres ved alle filaments der skal bruges.
-<img src="edit_filament.png" alt="Edit filament" style="width:70%; display:block; margin-left:auto; margin-right:auto;">
+### Tryk på _edit_ for at ændre på filament-indstillingerne. Dette skal gøres ved alle filaments der skal bruges.
+<img src="edit_filament.png" alt="Edit filament" style="width:60%; display:block; margin-left:auto; margin-right:auto;">
 
 ### Find temperaturen for pladen Smooth PEI, sæt dem begge på 65\({}^{\circ }\)
-<img src="smoothpei_temp.png" alt="Smooth PEI temperatur" style="width:40%; display:block; margin-left:auto; margin-right:auto;">
+<img src="smoothpei_temp.png" alt="Smooth PEI temperatur" style="width:550%; display:block; margin-left:auto; margin-right:auto;">
 
 ### Skru' tilmed ned for _volumetric speed_ - skal stå på 17.  
-<img src="volumetric_speed.png" alt="Volumetric Speed" style="width:70%; display:block; margin-left:auto; margin-right:auto;">
+<img src="volumetric_speed.png" alt="Volumetric Speed" style="width:60%; display:block; margin-left:auto; margin-right:auto;">
 
 ---
 
