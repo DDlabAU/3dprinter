@@ -12,12 +12,12 @@ DD Lab har to forskellige typer af 3D-printere:
 
 <table>
   <tr>
-    <td  width="50%"><a href="/Prusa-Printere/"><img src="Billeder/Prusa_i3_mk3.jpg" alt="Prusa printere"/></a></td>
-    <td><a href="/Bambulab-printer/"><img src="https://3deksperten.dk/cdn/shop/products/bambu-lab-x1-carbon-combo_3Deksperten.webp?v=1677841787" alt="bambulab printer"/></a></td>
+    <td  width="50%"><a href="Prusa-Printere/"><img src="Billeder/Prusa_i3_mk3.jpg" alt="Prusa printere"/></a></td>
+    <td><a href="Bambulab-printer/"><img src="https://3deksperten.dk/cdn/shop/products/bambu-lab-x1-carbon-combo_3Deksperten.webp?v=1677841787" alt="bambulab printer"/></a></td>
   </tr>
   <tr>
-  <td> <a href="/Prusa-Printere/">Guide til Prusa printere</a> </td>
-  <td> <a href="/Bambulab-printer/">Guide til bambulab printere</a>  </td>
+  <td> <a href="Prusa-Printere/">Guide til Prusa printere</a> </td>
+  <td> <a href="Bambulab-printer/">Guide til bambulab printere</a>  </td>
   </tr>
 </table>
 
@@ -25,11 +25,11 @@ DD Lab har to forskellige typer af 3D-printere:
 
 <table>
   <tr>
-    <td  width="50%"><a href="/Form3-Printer/"><img src="Billeder/Form3.png" alt="Form 3"/></a></td>
+    <td  width="50%"><a href="Form3-Printer/"><img src="Billeder/Form3.png" alt="Form 3"/></a></td>
     <td> </td>
   </tr>
   <tr>
-  <td> <a href="/Form3-Printer/">Guide til Form 3 printer</a> </td>
+  <td> <a href="Form3-Printer/">Guide til Form 3 printer</a> </td>
   <td></td>
   </tr>
 </table>
